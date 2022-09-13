@@ -1,0 +1,15 @@
+@use 'variables' as v;
+@mixin button($background, $widht){
+    background: $background;
+    color:white;
+    padding-inline: 20px;
+    padding-block: 15px;
+    width: $width;
+    font-family:v.$archivo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+ 
+}

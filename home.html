@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Hotel Miranda</title>
+</head>
+<body>
+
+    <header class="header">
+        <img class="header__burger" src="./assets/icons/menu-burger.png"/>
+        <img class="header__close hidden" src="./assets/icons/menu-close.png"/>
+        <div class="header__logo">
+            <img class="header__logo-bg" src="./assets/icons/h.png" alt="logo">
+        </div>
+        <img class="header__logo-title" src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda">
+        <img class="header__user" src="./assets/icons/user.png" alt="user"/>
+        <img class="header__search" src="./assets/icons/search.png" alt="search"/>
+        <ul class="header__menu">
+            <a class="header__menu" href="#about-us">
+                <li class="navbar__menu-li">About Us</li>
+            </a>    
+            <a class="header__menu__a" href="#rooms">
+                <li class="header__menu-li">Romms</li>
+            </a>  
+            <a class="header__menu-a" href="">
+                <li class="header__menu-li">Offers</li>
+            </a>
+            <a class="header__menu-a" href="">
+                <li class="header__menu-li">Contact</li>
+            </a>
+        </ul>
+    </header>
+    <main>
+
+     <div class="information">
+        <div class="information__content">
+            <p class="information__content-subtitle"> THE ULTIMATE LUXURY EXPERIENCE</p>
+            <h1 class="information__content-title">The Perfect Base For You</h1>
+           
+                <button class="information__content-take">TAKE A TOUR</button>
+                <button class="information__content-learn">LEARN MORE</button>
+           
+        </div>
+     </div>    
+        
+      
+    <div class="availability">
+        <form class="availability__form">
+          <div class="availability__form-arrival">
+            <label for="arrival">Arrival Date</label>
+            <img src="./assets/icons/calendar.png"/>
+            <input type="date" name="arrival" class="availability_input" />
+          </div>
+          <div class="availability__form-departure">
+            <label for="departure">LeDeparture Date</label>
+            <img src="./assets/icons/calendar.png"/>
+            <input type="date" name="departure" class="availability_input" />
+          </div>
+          <button id="check__button" name="check" type="button">
+            CHECK AVAILABILITY
+          </button>
+        </form>
+      </div>
+
+     <div class="aboutUs">
+        <p class="aboutUs__section">ABOUT US</p>
+        <p class="aboutUs__title">Discover Our Underground.</p>
+        <div class="aboutUs__text">
+            <p class="aboutUs__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque mauris eget pellentesque. Etiam sit amet accumsan ligula. Vivamus porttitor nibh sed blandit pellentesque. Nam fringilla tellus id eros facilisis, mollis pulvinar nibh condimentum</p>
+        </div>
+        <button class="aboutUs__button" name="book" type="button">BOOK NOW</button>
+     </div>
+
+    <div class="strongTeam">
+        <div class="strongTeam__container1">
+            <img class="strongTeam__container1-image" src="./assets/img/Empleados-comprometidos.jpg" alt="team">
+        </div>
+        <div class="strongTeam__container2">
+            <div class="strongTeam__container2-icon">
+                <img class="strongTeam__container2-icon-img" src="./assets/icons/team.png"/>
+            </div>
+                <p class="strongTeam__container2-title">Strong Team</p>
+                <p class="strongTeam__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla. </p>
+        </div>
+    </div>
+
+     <div class="luxury">
+        <div class="luxury__container1">
+            <img class= "luxury__container1-image" src="./assets/img/room.jpg" alt="luxury-room">
+        </div>
+        <div class="luxury__container2">
+                <img class="luxury__container2-icon" src="./assets/icons/calendar-large.png"/>
+          
+                <p class="luxury__container2-title">Luxury Room</p>
+                <p class="luxury__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla.</p>
+        </div>
+    </div> 
+
+    <div class="rooms">
+        <p class="rooms__section">ROOMS</p>
+        <p class="rooms__title">Hand Picked Rooms</p>
+        <div class="rooms__icon">
+            <img class="rooms__icon-img" src="./assets/icons/room-services.png" alt="icon">
+        </div>
+        <div class="rooms__slider"> SLIDER </div>
+         <div class="rooms__infor">
+            <h3>Minimal Duplex Room</h3>
+            <p class="rooms__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque mauris eget pellentesque</p> 
+            <p class="rooms__price">$345<span>/Night</span></p>
+         </div>
+    </div>
+
+     <div class="video">
+        <p class="video__section">INTRO VIDEO</p>
+        <h3 class="video__title">Meet With Our Luxury Place</h3>
+        <p class="video__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in. Donec accumsan, metus at tincidunt eleifend, ex sem egestas risus, in tincidunt massa mi eu ex. Vivamus cursus faucibus eros et mollis</p>
+        <iframe width="100%" height="270px" src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button type="button">BOOK NOW</button>
+     </div>
+
+     
+     <div class="facilities">
+        <p class="facilities__section">FACILITIES</p>
+        <h3 class="facilities__title">Core Features</h3>
+        <div class="facilities__icon">
+            <img class="facilities__icon-img" src="./assets/icons/stars.png" alt="icon">
+            <div "facilities__number">
+                <h1>01</h1>
+            </div>
+                <h3 class="facilities__title">Have High Rating</h3>
+                <p class="facilities__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in. Donec accumsan, metus at tincidunt eleifend, ex sem egestas risus, in tincidunt massa mi eu ex. Vivamus cursus faucibus eros et mollis. Fusce convallis massa tellus, sed consectetur magna</p>
+        </div>  
+    </div>
+        
+    <div class="menu">        
+         <div class="menu__img">
+            <img src="./assets/icons/donut.png">
+        </div>
+        <p class="menu__">MENU</p>
+        <h3 class="menu__title">Our Foods Menu</h3>
+        <div class="menu__menu">
+            <div class="menu__image">
+                <img  src="./assets/img/egg-baicon.png" alt="breakfast " />
+            </div>
+            <div class="menu__menu-text">
+                <h3 class="menu__menu-text-title">Eggs & Bacon</h3>
+                <p class="menu__menu-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+            </div>
+            <div class="menu__menu">
+                <div class="menu__image">
+                    <img  src="./assets/img/tea-cofee.jpg" alt="Tea & Coffee" />
+                </div>
+                <div class="menu__menu-text">
+                    <h3 class="menu__menu-text-title">Tea & Coffee</h3>
+                    <p class="menu__menu-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+                </div>
+                <div class="menu__menu">
+                    <div class="menu__image">
+                        <img  src="./assets/img/Chia-Seed-Oatmeal.jpg" alt="Chia Oatmeal" />
+                    </div>
+                    <div class="menu__menuTwo-text">
+                        <h3 class="menu__menu-text-title">Chia Oatmeal</h3>
+                        <p class="menu__menu-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+                    </div>
+                    <div class="menu__buttons">
+                        <button class="menu__buttons-before">
+                          <p>&#60;</p>
+                        </button>
+                        <button class="menu__buttons-next">
+                          <p>&#62;</p>
+                        </button>
+                      </div>              
+        </div> 
+        <div class="menu__slider-services">
+            <img src="" alt=""/>
+        </div>
+    </div>
+    <div class="data">
+    <div class="data__icon">
+        <img class="data__icon-img" src="./assets/icons/spaceship.png" alt="icon"/>
+        <h1 class="data__number">84k<span>+</span></h1>
+        <p class="data__text">Projects are Completed</p>
+    </div>
+    <div class="data__icon">
+        <img class="data__icon-img" src="./assets/icons/team-main.png" alt="icon"/>
+        <h1 class="data__number">10M<span>+</span></h1>
+        <p class="data__text">Active Backers Around World</p>
+    </div>
+    <div class="data__icon">
+        <img class="data__icon-img" src="./assets/icons/grow.png" alt="icon"/>
+        <h1 class="data__number">02k<span>+</span></h1>
+        <p class="data__text">Categories Served</p>
+    </div>
+    <div class="data__icon">
+        <img class="data__icon-img" src="./assets/icons/book.png" alt="icon"/>
+        <h1 class="data__number">100M<span>+</span></h1>
+        <p class="data__text">Idea Rised Funds</p>
+    </div>
+    </div>
+    
+
+</main>
+
+
+    <!-- Footer -->
+<footer class="footer" >
+    <div class="footer__container"></div>
+        <div class="footer__logo">
+            <img class="footer__logo-icon" src="./assets/icons/logo-large.png" alt="logo"/>
+        </div>
+        <p class="footer__ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in. Nam eros eros, ornare quis libero eu, eleifend imperdiet magna. Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
+
+        <ul class="footer__networks">
+            <li class="footer__networks-facebook">
+                <img src="./assets/icons/social-fb.png" alt="facebook">
+            </li>
+            <li class="footer__networks-twitter">
+                <img src="./assets/icons/social-tw.png" alt="twitter">
+            </li>
+            <li class="footer__networks-behance">
+                <img src="./assets/icons/social-be.png" alt="behance">
+            </li>
+            <li class="footer__networks-linkedin">
+                <img src="./assets/icons/social-in.png" alt="linkedin">
+            </li>
+            <li class="footer__networks-youtube">
+                <img src="./assets/icons/social-yt.png" alt="youtube">
+            </li>
+        </ul>
+        <h4 class="footer__services">Services</h4>
+
+        <div class="footer__services-left">
+            <p>+ Restaurant & Bar</p>
+            <p>+ Swimming Pool</p>
+            <p>+ Wellness & Spa</p>
+            <p>+ Restaurant</p>
+            <p>+ Conference Room</p>
+            <p>+ Coctail Party House</p>
+        </div>
+        <div class="footer__services-rigt">
+            <p>+ Gaming Zone</p>
+            <p>+ Marrige Party</p>
+            <p>+ Party Planning</p>
+            <p>+ Tour Consultancy</p>
+        </div>
+        <h4 class="footer__contact-title">
+            Contact Us
+        </h4>
+        <div class="footer__contact">
+            <div class="footer__contact-phone">
+                <img class="footer__contact-image" src="./assets/icons/phone.png" alt="phone">
+                <div class="footer__contact-data">
+                    <p>Phone Number</p>
+                    <p>+678 614 049</p>
+                </div>
+            </div>
+            <div class="footer__contact-mail">
+                <img class="footer__contact-image" src="./assets/icons/message.png" alt="email">
+                <div class="footer__contact-data">
+                    <p>Email</p>
+                    <p>cebalgar@gmail.com</p>
+                </div>
+            </div>
+            <div class="footer__contact-address">
+                <img class="footer__contact-image" src="./assets/icons/map.png" alt="phone">
+                <div class="footer__contact-data">
+                    <p>Address</p>
+                    <p>OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+<div class=""footer__copyright>
+    <p class="footer__copyright-text">
+        Copyright By@Example - 2020
+    </p>
+    <p class="footer__copyright-terms">
+        Terms of use | Privacy Environmental Policy
+    </p>
+
+</div>
+</footer>
+    
+</body>
+</html>
