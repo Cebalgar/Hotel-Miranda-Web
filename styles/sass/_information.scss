@@ -1,7 +1,7 @@
 .information {
   background-color: $gray;
   color: $white;
-  padding: 30px 30px 10px 30px;
+  padding: 30px 30px 50px 30px;
   &__content {
     display: block;
     width: 100%;
@@ -21,41 +21,26 @@
       font-size: 40px;
       line-height: 60px;
       letter-spacing: -1.2px;
-      margin-top: 40px;
+      padding-top: 40px;
+      margin-bottom: 40px;
     }
 
-    &-take {
-      background: $brown;
-      color: $white;
-      padding-inline: 20px;
-      padding-block: 15px;
-      width: 180px;
-      height: 60px;
-      font-family: $archivo;
-      font-style: normal;
-      font-weight: 700;
-      font-size: 14px;
-      line-height: 15px;
-      letter-spacing: 2.8px;
-      border: none;
+    &-button {
+      padding: 22px;
       margin-bottom: 24px;
-      margin-top: 40px;
-    }
-    &-learn {
-      background: $gray;
-      color: $white;
-      margin-bottom: 76px;
-      padding-inline: 20px;
-      padding-block: 15px;
-      width: 180px;
-      height: 60px;
       font-family: $archivo;
-      font-style: normal;
-      font-weight: 700;
       font-size: 14px;
-      line-height: 15px;
+      font-weight: 700;
       letter-spacing: 2.8px;
-      border: 2px solid rgba(255, 255, 255, 0.33);
-    }
+      background-color:$gray;
+      border: 2px solid $lightgray;
+      color: $white;
+      cursor: pointer;
+        &:hover {
+            background-color: $brown;
+            border: 2px solid $brown;
+        };
+  
   }
+}
 }

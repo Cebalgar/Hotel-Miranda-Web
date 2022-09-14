@@ -185,10 +185,10 @@ body {
   font-family: "Archivo", sans-serif;
   background-color: #f9f9f9;
   padding-bottom: 150px;
+  padding-left: 20px;
 }
 .aboutUs__section {
   padding-top: 40px;
-  margin-left: 20px;
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
@@ -212,29 +212,29 @@ body {
   padding: 20px;
 }
 .aboutUs__button {
-  background: #BEAD8E;
-  color: #FFFFFF;
-  padding-inline: 20px;
-  padding-block: 15px;
-  width: 216px;
-  height: 60px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 22px 57px;
+  border: 2px solid #777777;
+  background-color: #f9f9f9;
+  color: #777777;
+  margin-top: 24px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
   line-height: 15px;
   letter-spacing: 2.8px;
-  border: none;
-  margin-bottom: 24px;
-  margin-top: 40px;
-  margin-left: 20px;
   cursor: pointer;
+}
+.aboutUs__button:hover {
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
 }
 
 .information {
   background-color: #333333;
   color: #FFFFFF;
-  padding: 30px 30px 10px 30px;
+  padding: 30px 30px 50px 30px;
 }
 .information__content {
   display: block;
@@ -255,40 +255,24 @@ body {
   font-size: 40px;
   line-height: 60px;
   letter-spacing: -1.2px;
-  margin-top: 40px;
+  padding-top: 40px;
+  margin-bottom: 40px;
 }
-.information__content-take {
-  background: #BEAD8E;
-  color: #FFFFFF;
-  padding-inline: 20px;
-  padding-block: 15px;
-  width: 180px;
-  height: 60px;
-  font-family: "Archivo", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 15px;
-  letter-spacing: 2.8px;
-  border: none;
+.information__content-button {
+  padding: 22px;
   margin-bottom: 24px;
-  margin-top: 40px;
-}
-.information__content-learn {
-  background: #333333;
-  color: #FFFFFF;
-  margin-bottom: 76px;
-  padding-inline: 20px;
-  padding-block: 15px;
-  width: 180px;
-  height: 60px;
   font-family: "Archivo", sans-serif;
-  font-style: normal;
-  font-weight: 700;
   font-size: 14px;
-  line-height: 15px;
+  font-weight: 700;
   letter-spacing: 2.8px;
-  border: 2px solid rgba(255, 255, 255, 0.33);
+  background-color: #333333;
+  border: 2px solid #777777;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.information__content-button:hover {
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
 }
 
 .availability {
@@ -341,34 +325,33 @@ body {
   padding-bottom: 10px;
   padding-left: 30px;
   font-size: 14px;
+  margin-bottom: 36px;
 }
 .availability__form button {
-  background: #BEAD8E;
-  color: #FFFFFF;
-  padding-inline: 20px;
-  padding-block: 15px;
-  width: 250px;
-  height: 60px;
-  font-family: "Archivo", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 15px;
-  letter-spacing: 2.8px;
-  border: none;
+  padding: 22px;
   margin-bottom: 24px;
-  margin-top: 40px;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2.8px;
+  background-color: #222222;
+  border: 2px solid #777777;
+  color: #FFFFFF;
   cursor: pointer;
+}
+.availability__form button:hover {
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
 }
 
 .strongTeam {
   margin-top: -100px;
+  background-color: #FFFFFF;
 }
 .strongTeam__container1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF;
   width: 100%;
   height: 300px;
 }
@@ -558,23 +541,20 @@ body {
   padding: 20px;
 }
 .video__button {
-  background: #BEAD8E;
-  color: #FFFFFF;
-  padding-inline: 20px;
-  padding-block: 15px;
-  width: 180px;
-  height: 60px;
+  padding: 22px;
+  margin-bottom: 24px;
   font-family: "Archivo", sans-serif;
-  font-style: normal;
-  font-weight: 700;
+  width: 216px;
   font-size: 14px;
-  line-height: 15px;
+  font-weight: 700;
   letter-spacing: 2.8px;
-  border: none;
-  margin-bottom: 40px;
-  margin-top: 30px;
-  margin-left: 20px;
-  cursor: pointer;
+  background-color: #222222;
+  border: 2px solid #777777;
+  color: #FFFFFF;
+}
+.video__button:hover {
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
 }
 
 .facilities {

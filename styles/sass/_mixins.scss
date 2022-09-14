@@ -1,17 +1,21 @@
 
 
 
-@mixin button($background, $widht){
-    background: $background;
-    color:white;
-    padding-inline: 20px;
-    padding-block: 15px;
-    width: $width;
-    font-family:$archivo;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
- 
+@mixin button($background-color, $widht){
+font-size: 14px;
+  font-weight: 700;
+  padding: 22px 57px;
+  border: 2px solid $lightgray;
+  background-color:$background-color;
+  color: $lightgray;
+  margin-top: 24px;
+  font-family:$archivo;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  &:hover {
+    color: $white;
+    background-color: $background-color;
+    border: 2px solid $brown;
+  }
 }
