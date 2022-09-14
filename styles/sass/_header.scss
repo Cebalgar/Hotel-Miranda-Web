@@ -1,58 +1,55 @@
-.header{
-    width: 100%;
-    height: 70px;
-    top:0;
-    background: $white;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
-    &__burger{
+.header {
+  width: 100%;
+  height: 70px;
+  top: 0;
+  background: $white;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+  &__burger {
     position: absolute;
-    margin:28px;
+    margin: 28px;
+  }
+  &__close {
+    display: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: 20px;
+  }
+  &__logo {
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    margin: 17px 72px;
+    background: $white;
+    box-shadow: 0px 14px 24px rgba(139, 139, 139, 0.25);
+    &-bg {
+      padding: 11.5px;
     }
-    &__close{
-        display: none;
-        position: absolute;
-        width: 15px;
-        height:15px;
-        margin: 20px;
+    &-title {
+      margin: 25px 122px;
     }
-    &__logo{
-        position: absolute;
-        width: 36px;
-        height: 36px;
-        margin: 17px 72px;
-        background: $white;
-        box-shadow:0px 14px 24px rgba(139, 139, 139, 0.25);
-        &-bg{
-          padding: 11.5px;  
-        }
-        &-title{
-            margin:25px 122px;
-        }
+  }
+  &__user {
+    position: absolute;
+    top: 23px;
+    right: 68px;
+  }
+  &__search {
+    position: absolute;
+    top: 23px;
+    right: 20px;
+  }
+  &__menu {
+    display: none;
+    background-color: $white;
+    &-a {
+      text-decoration: none;
+      font-size: $archivo;
     }
-    &__user{
-        position:absolute;
-        top:23px;
-        right: 68px;
+    &-li {
+      list-style: none;
+      color: $black;
+      margin: 21px;
     }
-    &__search{
-        position:absolute;
-        top:23px;
-        right: 20px;
-    }
-    &__menu{
-        display: none;
-        background-color: $white;
-        &-a{
-            text-decoration: none;
-            font-size: $archivo;
-            
-        }
-        &-li{
-            list-style: none;
-            color:$black;
-            margin:21px;
-
-        }
-    }
-        
+  }
 }

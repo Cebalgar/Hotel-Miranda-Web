@@ -1,0 +1,119 @@
+.footer {
+  padding: 20px;
+  margin-top: 50px;
+  background-image: url("../assets/img/footer-bg.svg");
+
+  &__logo {
+    &-icon {
+      margin-left: -20px;
+    }
+  }
+
+  &__lorem {
+    font-family: $archivo;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $lightgray;
+  }
+  &__networks {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 48px;
+    list-style: none;
+    &-icon {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      width: 50px;
+      height: 50px;
+      transition: background-color 200ms ease-in-out;
+      img {
+        width: 30px;
+        height: 30px;
+        transition: filter 100ms ease-in-out;
+      }
+      &:hover {
+        background-color: #bead8e;
+        img {
+          filter: brightness(8);
+        }
+      }
+    }
+  }
+  &__title {
+    margin-top: 32px;
+    font-family: $standard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $darkgray;
+  }
+  &__services {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 24px;
+    list-style: none;
+    li {
+      font-family: $roboto;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 48px;
+      color: $lightgray;
+    }
+  }
+  &__contacTitle {
+    margin-top: 32px;
+    font-family: $standard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $darkgray;
+  }
+  &__contact {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    &-inform {
+      padding-top: 24px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 60px;
+
+      &-image {
+        padding-right: 30px;
+      }
+      &-data {
+        .text {
+          font-family: $standard;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 24px;
+          color: $darkgray;
+        }
+        .number {
+          color: $lightgray;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+.copyright {
+  padding: 20px;
+  background-color: #f8f8f8;
+  &__text {
+    font-family: $roboto;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.48px;
+    color: $darkgray;
+  }
+}

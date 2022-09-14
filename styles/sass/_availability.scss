@@ -1,84 +1,76 @@
-.availability{
-    font-size: $roboto;
-    background:$darkgray;  
-    color:$white;
-    padding: 0 20px 0 20px;
-  
-    &__form{
-        padding: 36px 0;
-    
-    &-arrival{
-        
-            label{
-                display: block;
-                margin-top: 30px;
-                margin-bottom: 25px;
-                font-size: 16px;
-            }
-            img{
-                position: absolute;
-            }
-            input{
-                width: 100%;
-                background: transparent;
-                border: none;
-                color:$brown;
-                position: relative;
-                border: none;
-                border-bottom: 2px solid $brown;
-                padding-bottom: 20px;
-                padding-left: 30px;
-                font-size: 14px;
-            }
-                
-        }
-    
-        &-departure{
-            
-            label{
+.availability {
+  font-size: $roboto;
+  background: $darkgray;
+  color: $white;
+  padding: 0 20px 0 20px;
 
-                display: block;
-                margin-top: 30px;
-                margin-bottom: 25px;
-                font-size: 16px;
-            }
-            img{
-                position: absolute;
-            }
-            input{
-                width: 100%;
-                background: transparent;
-                border: none;
-                color:$brown;
-                position: relative;
-                border: none;
-                border-bottom: 2px solid $brown;
-                padding-bottom: 10px;
-                padding-left: 30px;
-                font-size: 14px;
-            }
-            
-           } 
-           button{
-            background:$brown;
-            color:$white;
-            padding-inline: 20px;
-            padding-block: 15px;
-            width: 250px;
-            height: 60px;
-            font-family:$archivo;
-            font-style: normal;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 15px;
-            letter-spacing: 2.8px;
-            border:none;
-            margin-bottom:24px;
-            margin-top: 40px;
-           }  
-        
+  &__form {
+    padding: 36px 0;
+
+    &-arrival {
+      label {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 16px;
+      }
+      img {
+        position: absolute;
+      }
+      input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        color: $brown;
+        position: relative;
+        border: none;
+        border-bottom: 2px solid $brown;
+        padding-bottom: 20px;
+        padding-left: 30px;
+        font-size: 14px;
+      }
     }
+
+    &-departure {
+      label {
+        display: block;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        font-size: 16px;
+      }
+      img {
+        position: absolute;
+      }
+      input {
+        width: 100%;
+        background: transparent;
+        border: none;
+        color: $brown;
+        position: relative;
+        border: none;
+        border-bottom: 2px solid $brown;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        font-size: 14px;
+      }
+    }
+    button {
+      background: $brown;
+      color: $white;
+      padding-inline: 20px;
+      padding-block: 15px;
+      width: 250px;
+      height: 60px;
+      font-family: $archivo;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 2.8px;
+      border: none;
+      margin-bottom: 24px;
+      margin-top: 40px;
+      cursor: pointer;
+    }
+  }
 }
-
-
-

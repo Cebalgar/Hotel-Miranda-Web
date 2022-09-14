@@ -1,0 +1,64 @@
+.facilities {
+  width: 100%;
+  margin-top: 60px;
+  &__section {
+    font-size: $archivo;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    color: $lightgray;
+    text-align: center;
+  }
+  &__title {
+    font-family: $standard;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: $darkgray;
+    padding-top: 24px;
+    text-align: center;
+  }
+  &__slider {
+    margin-top: 32px;
+    padding-inline: 35px;
+    &-number {
+      width: 143px;
+      height: 130px;
+      margin-left: 60%;
+
+      .uno {
+        font-family: $archivo;
+        font-weight: 700;
+        font-size: 120px;
+        line-height: 130px;
+        color: rgba(34, 34, 34, 0.04);
+      }
+    }
+    &-icon {
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    &-subtitle {
+      padding-top: 36px;
+      font-family: $standard;
+      font-weight: 400;
+      font-size: 30px;
+      letter-spacing: -0.9;
+      line-height: 30px;
+      color: $darkgray;
+    }
+    &-lorem {
+      font-family: $archivo;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: $lightgray;
+      padding: 20px 0 20px 0;
+      text-align: justify;
+    }
+  }
+}

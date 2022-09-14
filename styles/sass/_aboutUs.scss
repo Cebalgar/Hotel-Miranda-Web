@@ -1,50 +1,50 @@
-.aboutUs{
-    margin-top: 60px;
+.aboutUs {
+  margin-top: 60px;
+  font-family: $archivo;
+  background-color: #f9f9f9;
+  padding-bottom: 150px;
+  &__section {
+    padding-top: 40px;
+    margin-left: 20px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.8px;
+    color: $lightgray;
+  }
+  &__title {
+    margin-top: 32px;
+    font-size: 50px;
+    font-family: $standard;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    margin-left: 20px;
+    text-align: center;
+  }
+  &__lorem {
+    color: $lightgray;
     font-family: $archivo;
-    background-color:#F9F9F9 ;
-    padding-bottom: 175px;
-    &__section{
-        padding-top: 40px;
-        margin-left: 20px;
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 2.8px;
-        color:$lightgray;
-    }
-    &__title{
-        margin-top: 32px;
-        font-size: 50px;
-        font-family: $standard;
-        line-height:60px;
-        letter-spacing: -1.2px;
-        margin-left: 20px;
-        text-align: center;
-    }
-    &__lorem{
-        color:$lightgray;
-        font-family: $archivo;
-        font-size: 14px;
-        line-height: 24px;
-        margin-left: 20px;
-        margin-top: 16px;
-    }
-    &__button{
-        background:$brown;
-        color:$white;
-        padding-inline: 20px;
-        padding-block: 15px;
-        width: 216px;
-        height: 60px;
-        font-family:$archivo;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 15px;
-        letter-spacing: 2.8px;
-        border:none;
-        margin-bottom:24px;
-        margin-top: 40px;
-        margin-left:20px;
-    }
+    font-size: 14px;
+    line-height: 24px;
+    padding: 20px;
+  }
+  &__button {
+    background: $brown;
+    color: $white;
+    padding-inline: 20px;
+    padding-block: 15px;
+    width: 216px;
+    height: 60px;
+    font-family: $archivo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    border: none;
+    margin-bottom: 24px;
+    margin-top: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
 }

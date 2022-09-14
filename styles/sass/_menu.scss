@@ -1,0 +1,107 @@
+.menu {
+  padding: 30px;
+  &__img {
+    margin-left: 80%;
+  }
+  &__section {
+    font-family: $archivo;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    color: $lightgray;
+  }
+  &__title {
+    padding-top: 20px;
+    font-family: $standard;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    color: $darkgray;
+  }
+  &__card {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+
+    &-image {
+      img {
+        object-fit: cover;
+        width: 120px;
+        height: 120px;
+      }
+    }
+    &-text {
+      &-title {
+        font-family: $standard;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.72px;
+        color: $darkgray;
+      }
+      &-lorem {
+        margin-top: 12px;
+        font-family: $roboto;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        color: $darkgray;
+      }
+    }
+  }
+  &__buttons {
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+
+    &-before {
+      background: #f8f8f8;
+      width: 36px;
+      height: 36px;
+      font-family: $archivo;
+      font-weight: 700;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      p {
+        color: $black;
+      }
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+    &-next {
+      background: $brown;
+      width: 36px;
+      height: 36px;
+      font-family: $archivo;
+      font-weight: 700;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+
+      p {
+        color: $white;
+      }
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 14px 24px rgba(190, 173, 142, 0.15);
+      }
+    }
+  }
+
+  &__slider {
+    background: lightgrey;
+    height: 300px;
+    margin-top: 40px;
+  }
+}

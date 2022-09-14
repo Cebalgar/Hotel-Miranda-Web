@@ -1,0 +1,27 @@
+.data {
+  display: flex;
+  flex-direction: column;
+  background: $darkgray;
+  padding: 40px;
+
+  &__icon {
+    text-align: center;
+    margin-bottom: 30px;
+    &-img {
+      margin-bottom: 16px;
+    }
+    &-number {
+      font-family: $roboto;
+      font-size: 60px;
+      color: $white;
+      span {
+        font-size: 20px;
+      }
+    }
+    &-text {
+      font-family: $roboto;
+      color: #999999;
+      font-size: 16px;
+    }
+  }
+}
