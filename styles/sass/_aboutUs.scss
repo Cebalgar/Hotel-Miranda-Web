@@ -19,6 +19,7 @@
         line-height:60px;
         letter-spacing: -1.2px;
         margin-left: 20px;
+        text-align: center;
     }
     &__lorem{
         color:$lightgray;
@@ -33,7 +34,8 @@
         color:$white;
         padding-inline: 20px;
         padding-block: 15px;
-        width: 250px;
+        width: 216px;
+        height: 60px;
         font-family:$archivo;
         font-style: normal;
         font-weight: 700;

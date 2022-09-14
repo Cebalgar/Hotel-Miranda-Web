@@ -1,6 +1,5 @@
 .availability{
     font-size: $roboto;
-    padding-block: 36px;
     background:$darkgray;  
     color:$white;
     padding: 0 20px 0 20px;
@@ -66,6 +65,7 @@
             padding-inline: 20px;
             padding-block: 15px;
             width: 250px;
+            height: 60px;
             font-family:$archivo;
             font-style: normal;
             font-weight: 700;

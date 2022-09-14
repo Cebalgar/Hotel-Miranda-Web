@@ -89,6 +89,7 @@ body {
   line-height: 60px;
   letter-spacing: -1.2px;
   margin-left: 20px;
+  text-align: center;
 }
 .aboutUs__lorem {
   color: #777777;
@@ -103,7 +104,8 @@ body {
   color: #FFFFFF;
   padding-inline: 20px;
   padding-block: 15px;
-  width: 250px;
+  width: 216px;
+  height: 60px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -119,7 +121,7 @@ body {
 .information {
   background-color: #333333;
   color: #FFFFFF;
-  padding: 30px;
+  padding: 30px 30px 10px 30px;
 }
 .information__content {
   display: block;
@@ -148,6 +150,7 @@ body {
   padding-inline: 20px;
   padding-block: 15px;
   width: 180px;
+  height: 60px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -165,6 +168,7 @@ body {
   padding-inline: 20px;
   padding-block: 15px;
   width: 180px;
+  height: 60px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -176,7 +180,6 @@ body {
 
 .availability {
   font-size: "Roboto", serif;
-  padding-block: 36px;
   background: #222222;
   color: #FFFFFF;
   padding: 0 20px 0 20px;
@@ -232,6 +235,7 @@ body {
   padding-inline: 20px;
   padding-block: 15px;
   width: 250px;
+  height: 60px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -346,4 +350,117 @@ body {
   text-align: center;
   letter-spacing: -1.2px;
   margin-top: 24px;
+}
+.rooms__icon {
+  position: relative;
+  bottom: -40px;
+  width: 240px;
+  height: 50px;
+  margin-left: 60px;
+  box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.rooms__slider {
+  width: 100%;
+  height: 244px;
+  background: lightgray;
+  margin-left: 20px;
+}
+.rooms__infor {
+  display: flex;
+  flex-direction: column;
+  margin-left: 35px;
+  margin-top: -20px;
+  width: 90%;
+  height: 215px;
+  background-color: #FFFFFF;
+  justify-content: center;
+  padding: 20px;
+}
+.rooms__infor-title {
+  font-family: "Old Standard TT", serif;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.2px;
+  text-align: center;
+  color: #222222;
+}
+.rooms__infor-lorem {
+  color: #777777;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  text-align: center;
+  line-height: 24px;
+}
+.rooms__infor-price {
+  font-family: "Archivo", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  text-align: center;
+  color: #BEAD8E;
+  margin-top: 12px;
+}
+.rooms__infor-price span {
+  font-size: 13px;
+}
+.rooms__infor-price:hover {
+  transform: scale(1.1);
+}
+
+.video {
+  width: 100%;
+  display: block;
+  background-color: #222222;
+}
+.video__section {
+  padding-top: 64px;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  color: #BEAD8E;
+}
+.video__title {
+  color: #FFFFFF;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  padding: 20px;
+}
+.video__lorem {
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #C2C2C2;
+  padding: 20px;
+  text-align: justify;
+}
+.video__film {
+  max-width: 335px;
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.video__button {
+  background: #BEAD8E;
+  color: #FFFFFF;
+  padding-inline: 20px;
+  padding-block: 15px;
+  width: 180px;
+  height: 60px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  border: none;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
