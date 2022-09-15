@@ -233,6 +233,119 @@ body {
   border: 2px solid #BEAD8E;
 }
 
+.presentation {
+  padding: 20px;
+  font-size: 32px;
+  font-family: "Old Standard TT", serif;
+  line-height: 40px;
+  letter-spacing: -1.16px;
+  margin-left: 20px;
+  text-align: center;
+}
+
+.services {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+.services__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  transition: background-color 200ms ease-in-out;
+}
+.services__icon img {
+  margin-top: 10px;
+  width: 58px;
+  height: 50px;
+  transition: filter 100ms ease-in-out;
+}
+.services__icon:hover {
+  background-color: #bead8e;
+}
+.services__icon:hover img {
+  filter: brightness(8);
+}
+.services p {
+  font-family: "Archivo", sans-serif;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 14px;
+  letter-spacing: 2.4px;
+  color: #222222;
+}
+
+.restaurant {
+  margin-top: 60px;
+  font-family: "Archivo", sans-serif;
+  background-color: #f9f9f9;
+  padding-bottom: 150px;
+  padding-left: 20px;
+}
+.restaurant__photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.restaurant__photo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 270px;
+  height: 300px;
+}
+.restaurant__section {
+  font-family: "Archivo", sans-serif;
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.restaurant__title {
+  margin-top: 32px;
+  font-size: 40px;
+  font-family: "Old Standard TT", serif;
+  line-height: 50px;
+  letter-spacing: -1.1px;
+  margin-left: 20px;
+  text-align: center;
+  font-weight: 400;
+}
+.restaurant__lorem {
+  color: #777777;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 20px;
+}
+.restaurant__button {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 22px 57px;
+  border: 2px solid #777777;
+  background-color: #f9f9f9;
+  color: #777777;
+  margin-top: 24px;
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  cursor: pointer;
+}
+.restaurant__button:hover {
+  color: #FFFFFF;
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
+}
+
 .information {
   background-color: #333333;
   color: #FFFFFF;
@@ -650,6 +763,16 @@ body {
   padding: 20px 0 20px 0;
   text-align: justify;
 }
+.facilities-dark {
+  padding: 40px;
+  background-color: #222222;
+}
+.facilities-dark p {
+  color: #FFFFFF;
+}
+.facilities .number-dark {
+  color: #333333;
+}
 
 .menu {
   padding: 30px;
@@ -891,4 +1014,115 @@ body {
   line-height: 19px;
   letter-spacing: -0.48px;
   color: #222222;
+}
+
+.head {
+  width: 100%;
+  background-color: #333333;
+  padding: 120px 0 90px 20px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+.head__subtitle {
+  font-family: "Archivo", sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: 2.8px;
+}
+.head__title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  margin-top: 20px;
+}
+
+.nav {
+  margin-left: 60%;
+  position: absolute;
+  background-color: #FFFFFF;
+  font-family: "Archivo", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.48px;
+  margin-top: -80px;
+  padding: 16px 16px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.nav .page {
+  color: #111111;
+  text-decoration: none;
+}
+.nav .page:hover {
+  color: #BEAD8E;
+}
+
+.counter {
+  text-align: left;
+  padding: 20px;
+}
+.counter__section {
+  font-family: "Archivo", sans-serif;
+  padding-top: 40px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.counter__title {
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  margin-top: 32px;
+  font-size: 50px;
+  font-family: "Old Standard TT", serif;
+  line-height: 60px;
+  letter-spacing: -1.2px;
+  margin-left: 20px;
+}
+.counter__facts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.counter__facts-icon {
+  padding-top: 24px;
+  display: flex;
+  margin-bottom: 60px;
+}
+.counter__facts-icon img {
+  padding-right: 30px;
+}
+.counter__facts-icon-data h1 {
+  grid-column: 2;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -1.8px;
+  color: #222222;
+}
+.counter__facts-icon-data p {
+  text-align: left;
+  grid-column: 2;
+  font-family: "Archivo", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  color: #333333;
+}
+.counter__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+.counter__image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 270px;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */

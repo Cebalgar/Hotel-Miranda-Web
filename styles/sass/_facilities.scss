@@ -61,4 +61,18 @@
       text-align: justify;
     }
   }
+  &-dark {
+    padding: 40px;
+    background-color:$darkgray;
+       p{
+        color:$white;
+       } 
+ 
+  }
+  .number-dark{
+    color: $gray;
+  }
+  
 }
+
+
