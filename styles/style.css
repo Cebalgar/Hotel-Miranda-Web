@@ -16,6 +16,8 @@ body {
   top: 0;
   background: #FFFFFF;
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
+  position: fixed;
+  z-index: 100;
 }
 .header__burger {
   position: absolute;
@@ -551,6 +553,7 @@ body {
   background-color: #222222;
   border: 2px solid #777777;
   color: #FFFFFF;
+  cursor: pointer;
 }
 .video__button:hover {
   background-color: #BEAD8E;
