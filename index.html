@@ -5,287 +5,311 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Hotel Miranda</title>
 </head>
 <body>
 
-    <header class="header">
-        <img class="header__burger" src="./assets/icons/menu-burger.png"/>
-        <img class="header__close hidden" src="./assets/icons/menu-close.png"/>
-        <div class="header__logo">
-            <img class="header__logo-bg" src="./assets/icons/h.png" alt="logo">
-        </div>
-        <img class="header__logo-title" src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda">
-        <img class="header__user" src="./assets/icons/user.png" alt="user"/>
-        <img class="header__search" src="./assets/icons/search.png" alt="search"/>
-        <ul class="header__menu">
-            <a class="header__menu" href="#about-us">
-                <li class="navbar__menu-li">About Us</li>
-            </a>    
-            <a class="header__menu__a" href="#rooms">
-                <li class="header__menu-li">Romms</li>
-            </a>  
-            <a class="header__menu-a" href="">
-                <li class="header__menu-li">Offers</li>
-            </a>
-            <a class="header__menu-a" href="">
-                <li class="header__menu-li">Contact</li>
-            </a>
-        </ul>
-    </header>
-    <main>
-
-     <div class="information">
-        <div class="information__content">
-            <p class="information__content-subtitle"> THE ULTIMATE LUXURY EXPERIENCE</p>
-            <h1 class="information__content-title">The Perfect Base For You</h1>
-           
-                <button class="information__content-button">TAKE A TOUR</button>
-                <button class="information__content-button">LEARN MORE</button>
-           
-        </div>
-     </div>    
+        <header class="header">
+            <img class="header__burger" src="./assets/icons/menu-burger.png"/>
+            <img class="header__close hidden" src="./assets/icons/menu-close.png"/>
+            <div class="header__logo">
+                <img class="header__logo-bg" src="./assets/icons/h.png" alt="logo">
+            </div>
+            <img class="header__logo-title" src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda">
+            <img class="header__user" src="./assets/icons/user.png" alt="user"/>
+            <img class="header__search" src="./assets/icons/search.png" alt="search"/>
+            <ul class="header__menu">
+                <a class="header__menu" href="#about-us">
+                    <li class="navbar__menu-li">About Us</li>
+                </a>    
+                <a class="header__menu__a" href="#rooms">
+                    <li class="header__menu-li">Romms</li>
+                </a>  
+                <a class="header__menu-a" href="">
+                    <li class="header__menu-li">Offers</li>
+                </a>
+                <a class="header__menu-a" href="">
+                    <li class="header__menu-li">Contact</li>
+                </a>
+            </ul>
+        </header>
+        <main>
+           <div class="information">
+            <div class="information__content">
+                <p class="information__content-subtitle"> THE ULTIMATE LUXURY EXPERIENCE</p>
+                <h1 class="information__content-title">The Perfect Base For You</h1>
+            
+                    <button class="information__content-button">TAKE A TOUR</button>
+                    <button class="information__content-button">LEARN MORE</button>
+            
+            </div>
+        </div>    
+            
         
-      
-    <div class="availability">
-        <form class="availability__form">
-          <div class="availability__form-arrival">
-            <label for="arrival">Arrival Date</label>
-            <img src="./assets/icons/calendar.png"/>
-            <input type="date" name="arrival" class="availability_input" />
-          </div>
-          <div class="availability__form-departure">
-            <label for="departure">LeDeparture Date</label>
-            <img src="./assets/icons/calendar.png"/>
-            <input type="date" name="departure" class="availability_input" />
-          </div>
-          <button id="check__button" name="check" type="button">
-            CHECK AVAILABILITY
-          </button>
-        </form>
-      </div>
-
-     <div class="aboutUs">
-        <p class="aboutUs__section">ABOUT US</p>
-        <p class="aboutUs__title">Discover Our Underground.</p>
-        <div class="aboutUs__text">
-            <p class="aboutUs__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque mauris eget pellentesque. Etiam sit amet accumsan ligula. Vivamus porttitor nibh sed blandit pellentesque. </p>
-        </div>
-        <button class="aboutUs__button" name="book" type="button">BOOK NOW</button>
-     </div>
-
-    <div class="strongTeam">
-        <div class="strongTeam__container1">
-            <img class="strongTeam__container1-image" src="./assets/img/Empleados-comprometidos.jpg" alt="team">
-        </div>
-        <div class="strongTeam__container2">
-            <div class="strongTeam__container2-icon">
-                <img class="strongTeam__container2-icon-img" src="./assets/icons/team.png"/>
+        <div class="availability">
+            <form class="availability__form">
+            <div class="availability__form-arrival">
+                <label for="arrival">Arrival Date</label>
+                <img src="./assets/icons/calendar.png"/>
+                <input type="date" name="arrival" class="availability_input" />
             </div>
-                <p class="strongTeam__container2-title">Strong Team</p>
-                <p class="strongTeam__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla. </p>
-        </div>
-    </div>
-
-     <div class="luxury">
-        <div class="luxury__container1">
-            <img class= "luxury__container1-image" src="./assets/img/room.jpg" alt="luxury-room">
-        </div>
-        <div class="luxury__container2">
-                <img class="luxury__container2-icon" src="./assets/icons/calendar-large.png"/>
-          
-                <p class="luxury__container2-title">Luxury Room</p>
-                <p class="luxury__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla.</p>
-        </div>
-    </div> 
-
-    <div class="rooms">
-        <p class="rooms__section">ROOMS</p>
-        <p class="rooms__title">Hand Picked Rooms</p>
-        <img class="rooms__icon" src="./assets/icons/room-services.png" alt="icon">
-        
-        <div class="rooms__slider"> SLIDER </div>
-         <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span></p>
-         </div>
-    </div>
-
-     <div class="video">
-        <p class="video__section">INTRO VIDEO</p>
-        <h3 class="video__title">Meet With Our Luxury Place</h3>
-        <p class="video__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in. Donec accumsan, metus at tincidunt eleifend, ex sem egestas. </p>
-        <iframe class="video__film" width="100%" height="270px" src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <button class="video__button" type="button">BOOK NOW</button>
-     </div>
-
-     
-     <div class="facilities">
-        <p class="facilities__section">FACILITIES</p>
-        <p class="facilities__title">Core Features</p>
-        <div class="facilities__slider">
-            <div class="facilities__slider-number">
-                <h1 class="uno">01</h1>
+            <div class="availability__form-departure">
+                <label for="departure">LeDeparture Date</label>
+                <img src="./assets/icons/calendar.png"/>
+                <input type="date" name="departure" class="availability_input" />
             </div>
-            <img class="facilities__slider-icon" src="./assets/icons/stars.png" alt="icon">
-                <p class="facilities__slider-subtitle">Have High Rating</p>
-                <p class="facilities__slider-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in.</p>
-        </div>  
-    </div>
-        
-    <div class="menu">        
-         <div class="menu__img">
-            <img src="./assets/icons/donut.png">
-        </div>
-        <p class="menu__section">MENU</p>
-        <p class="menu__title">Our Foods Menu</p>
-        
-    <div class="menu__card">
-            <div class="menu__card-image">
-                <img  src="./assets/img/egg-baicon.jpeg" alt="breakfast " />
-            </div>
-            <div class="menu__card-text">
-                <p class="menu__card-text-title">Eggs & Bacon</p>
-                <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
-            </div>
-    </div>        
-    <div class="menu__card">
-            <div class="menu__card-image">
-                 <img  src="./assets/img/tea-cofee.jpg" alt="Tea & Coffee" />
-            </div>
-            <div class="menu__card-text">
-                <h3 class="menu__card-text-title">Tea & Coffee</h3>
-                 <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
-            </div>
-    </div>    
-    <div class="menu__card">
-            <div class="menu__card-image">
-                <img  src="./assets/img/Chia-Seed-Oatmeal.jpg" alt="Chia Oatmeal" />
-            </div>
-            <div class="menu__menuTwo-text">
-                <h3 class="menu__card-text-title">Chia Oatmeal</h3>
-                <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
-            </div>
-    </div>   
-        <div class="menu__buttons">
-            <button class="menu__buttons-before">
-                    <p>&#60;</p>
+            <button id="check__button" name="check" type="button">
+                CHECK AVAILABILITY
             </button>
-            <button class="menu__buttons-next">
-                    <p>&#62;</p>
-            </button>
-        </div>              
+            </form>
+        </div>
+
+        <div class="aboutUs">
+            <p class="aboutUs__section">ABOUT US</p>
+            <p class="aboutUs__title">Discover Our Underground.</p>
+            <div class="aboutUs__text">
+                <p class="aboutUs__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque mauris eget pellentesque. Etiam sit amet accumsan ligula. Vivamus porttitor nibh sed blandit pellentesque. </p>
+            </div>
+            <button class="aboutUs__button" name="book" type="button">BOOK NOW</button>
+        </div>
+
+        <div class="strongTeam">
+            <div class="strongTeam__container1">
+                <img class="strongTeam__container1-image" src="./assets/img/Empleados-comprometidos.jpg" alt="team">
+            </div>
+            <div class="strongTeam__container2">
+                <div class="strongTeam__container2-icon">
+                    <img class="strongTeam__container2-icon-img" src="./assets/icons/team.png"/>
+                </div>
+                    <p class="strongTeam__container2-title">Strong Team</p>
+                    <p class="strongTeam__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla. </p>
+            </div>
+        </div>
+
+        <div class="luxury">
+            <div class="luxury__container1">
+                <img class= "luxury__container1-image" src="./assets/img/room.jpg" alt="luxury-room">
+            </div>
+            <div class="luxury__container2">
+                    <img class="luxury__container2-icon" src="./assets/icons/calendar-large.png"/>
+            
+                    <p class="luxury__container2-title">Luxury Room</p>
+                    <p class="luxury__container2-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla.</p>
+            </div>
+        </div> 
+
+        <div class="rooms">
+            <p class="rooms__section">ROOMS</p>
+            <p class="rooms__title">Hand Picked Rooms</p>
+            <img class="rooms__icon" src="./assets/icons/room-services.png" alt="icon">
+
+            <!-- Slider main container -->
+            <div class="swiper">
+                 <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                      <!-- Slides -->
+           
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room1.jpg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room2.jpg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room3.jpg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room4.jpg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room5.jpg')"></div>
+                <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room6.jpg')"></div>
+                </div>
+              
+                 <!-- buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
         
-        <div class="menu__slider">
-            <img src="" alt=""/>
-        </div>
-    </div>
-
-    <div class="data">
-    <div class="data__icon">
-        <img class="data__icon-img" src="./assets/icons/spaceship.png" alt="icon"/>
-        <h1 class="data__icon-number">84k<span>+</span></h1>
-        <p class="data__icon-text">Projects are Completed</p>
-    </div>
-    <div class="data__icon">
-        <img class="data__icon-img" src="./assets/icons/team-main.png" alt="icon"/>
-        <h1 class="data__icon-number">10M<span>+</span></h1>
-        <p class="data__icon-text">Active Backers Around World</p>
-    </div>
-    <div class="data__icon">
-        <img class="data__icon-img" src="./assets/icons/grow.png" alt="icon"/>
-        <h1 class="data__icon-number">02k<span>+</span></h1>
-        <p class="data__icon-text">Categories Served</p>
-    </div>
-    <div class="data__icon">
-        <img class="data__icon-img" src="./assets/icons/book.png" alt="icon"/>
-        <h1 class="data__icon-number">100M<span>+</span></h1>
-        <p class="data__icon-text">Idea Rised Funds</p>
-    </div>
-
-    
-
-</main>
-
-
-    <!-- Footer -->
-<footer class="footer">
-        <div class="footer__logo">
-            <img class="footer__logo-icon" src="./assets/icons/logo-large.png" alt="logo"/>
-        </div>
-        <p class="footer__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.  Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
-
-        <div class="footer__networks">
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-fb.png" alt="facebook">
             </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/twitter.svg" alt="twitter">
+        
+        
             </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-be.png" alt="behance">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-in.png" alt="linkedin">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-yt.png" alt="youtube">
+            <div class="rooms__infor">
+                <p class="rooms__infor-title">Minimal Duplex Room</p>
+                <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
+                <p class="rooms__infor-price">$345<span>/Night</span></p>
             </div>
         </div>
-    <div>
-        <h4 class="footer__title">Services.</h4>
 
-        <ul class="footer__services">
-            <li>+ Restaurant & Bar</li>
-            <li>+ Swimming Pool</li>
-            <li>+ Wellness & Spa</li>
-            <li>+ Restaurant</li>
-            <li>+ Conference Room</li>
-            <li>+ Coctail Party House</li>
-            <li>+ Gaming Zone</li>
-            <li>+ Marrige Party</li>
-            <li>+ Party Planning</li>
-            <li>+ Tour Consultancy</li>
-        </ul>
-    </div>
-        <h4 class="footer__contacTitle">
-            Contact Us.
-        </h4>
-        <div class="footer__contact">
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/phone.png" alt="phone">
-                <div class="footer__contact-inform-data">
-                    <p class="text">Phone Number</p>
-                    <p class="number">+678 614 049</p>
-                </div>
-            </div>
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/message.png" alt="email">
-                <div class="footer__contact-inform-data">
-                    <p class="text">Email</p>
-                    <p class="number">cebalgar@gmail.com</p>
-                </div>
-            </div>
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/map.png" alt="phone">
-                <div class="footer__contact-inform-data">
-                    <p class="text">Address</p>
-                    <p class="number">OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
-                </div>
-            </div>
-        </div>  
-    </div>
-</footer>
-<div class="copyright">
-    <p class="copyright__text">
-        Copyright By@Example - 2020
-    </p><br>
-    <p class="copyright__text">
-        Terms of use | Privacy Environmental Policy
-    </p>
+        <div class="video">
+            <p class="video__section">INTRO VIDEO</p>
+            <h3 class="video__title">Meet With Our Luxury Place</h3>
+            <p class="video__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in. Donec accumsan, metus at tincidunt eleifend, ex sem egestas. </p>
+            <iframe class="video__film" width="100%" height="270px" src="https://www.youtube.com/embed/Bu3Doe45lcU?start=25&end=75&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <button class="video__button" type="button">BOOK NOW</button>
+        </div>
 
-</div>
-    
+        
+        <div class="facilities">
+            <p class="facilities__section">FACILITIES</p>
+            <p class="facilities__title">Core Features</p>
+            <div class="facilities__slider">
+                <div class="facilities__slider-number">
+                    <h1 class="uno">01</h1>
+                </div>
+                <img class="facilities__slider-icon" src="./assets/icons/stars.png" alt="icon">
+                    <p class="facilities__slider-subtitle">Have High Rating</p>
+                    <p class="facilities__slider-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum. Duis accumsan mattis lectus, ut pretium dolor vestibulum in.</p>
+            </div>  
+        </div>
+            
+        <div class="menu">        
+            <div class="menu__img">
+                <img src="./assets/icons/donut.png">
+            </div>
+            <p class="menu__section">MENU</p>
+            <p class="menu__title">Our Foods Menu</p>
+            
+        <div class="menu__card">
+                <div class="menu__card-image">
+                    <img  src="./assets/img/egg-baicon.jpeg" alt="breakfast " />
+                </div>
+                <div class="menu__card-text">
+                    <p class="menu__card-text-title">Eggs & Bacon</p>
+                    <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+                </div>
+        </div>        
+        <div class="menu__card">
+                <div class="menu__card-image">
+                    <img  src="./assets/img/tea-cofee.jpg" alt="Tea & Coffee" />
+                </div>
+                <div class="menu__card-text">
+                    <h3 class="menu__card-text-title">Tea & Coffee</h3>
+                    <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+                </div>
+        </div>    
+        <div class="menu__card">
+                <div class="menu__card-image">
+                    <img  src="./assets/img/Chia-Seed-Oatmeal.jpg" alt="Chia Oatmeal" />
+                </div>
+                <div class="menu__menuTwo-text">
+                    <h3 class="menu__card-text-title">Chia Oatmeal</h3>
+                    <p class="menu__card-text-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla id feugiat sem, at consequat ipsum.</p>
+                </div>
+        </div>   
+            <div class="menu__buttons">
+                <button class="menu__buttons-before">
+                        <p>&#60;</p>
+                </button>
+                <button class="menu__buttons-next">
+                        <p>&#62;</p>
+                </button>
+            </div>              
+            
+            <div class="menu__slider">
+                <img src="" alt=""/>
+            </div>
+        </div>
+
+        <div class="data">
+        <div class="data__icon">
+            <img class="data__icon-img" src="./assets/icons/spaceship.png" alt="icon"/>
+            <h1 class="data__icon-number">84k<span>+</span></h1>
+            <p class="data__icon-text">Projects are Completed</p>
+        </div>
+        <div class="data__icon">
+            <img class="data__icon-img" src="./assets/icons/team-main.png" alt="icon"/>
+            <h1 class="data__icon-number">10M<span>+</span></h1>
+            <p class="data__icon-text">Active Backers Around World</p>
+        </div>
+        <div class="data__icon">
+            <img class="data__icon-img" src="./assets/icons/grow.png" alt="icon"/>
+            <h1 class="data__icon-number">02k<span>+</span></h1>
+            <p class="data__icon-text">Categories Served</p>
+        </div>
+        <div class="data__icon">
+            <img class="data__icon-img" src="./assets/icons/book.png" alt="icon"/>
+            <h1 class="data__icon-number">100M<span>+</span></h1>
+            <p class="data__icon-text">Idea Rised Funds</p>
+        </div>
+
+        
+
+    </main>
+
+
+        <!-- Footer -->
+    <footer class="footer">
+            <div class="footer__logo">
+                <img class="footer__logo-icon" src="./assets/icons/logo-large.png" alt="logo"/>
+            </div>
+            <p class="footer__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.  Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
+
+            <div class="footer__networks">
+                <div class="footer__networks-icon">
+                    <img src="./assets/icons/social-fb.png" alt="facebook">
+                </div>
+                <div class="footer__networks-icon">
+                    <img src="./assets/icons/social-tw.svg" alt="twitter">
+                </div>
+                <div class="footer__networks-icon">
+                    <img src="./assets/icons/social-be.png" alt="behance">
+                </div>
+                <div class="footer__networks-icon">
+                    <img src="./assets/icons/social-in.png" alt="linkedin">
+                </div>
+                <div class="footer__networks-icon">
+                    <img src="./assets/icons/social-yt.png" alt="youtube">
+                </div>
+            </div>
+        <div>
+            <h4 class="footer__title">Services.</h4>
+
+            <ul class="footer__services">
+                <li>+ Restaurant & Bar</li>
+                <li>+ Swimming Pool</li>
+                <li>+ Wellness & Spa</li>
+                <li>+ Restaurant</li>
+                <li>+ Conference Room</li>
+                <li>+ Coctail Party House</li>
+                <li>+ Gaming Zone</li>
+                <li>+ Marrige Party</li>
+                <li>+ Party Planning</li>
+                <li>+ Tour Consultancy</li>
+            </ul>
+        </div>
+            <h4 class="footer__contacTitle">
+                Contact Us.
+            </h4>
+            <div class="footer__contact">
+                <div class="footer__contact-inform">
+                    <img class="footer__contact-inform-image" src="./assets/icons/phone.png" alt="phone">
+                    <div class="footer__contact-inform-data">
+                        <p class="text">Phone Number</p>
+                        <p class="number">+678 614 049</p>
+                    </div>
+                </div>
+                <div class="footer__contact-inform">
+                    <img class="footer__contact-inform-image" src="./assets/icons/message.png" alt="email">
+                    <div class="footer__contact-inform-data">
+                        <p class="text">Email</p>
+                        <p class="number">cebalgar@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer__contact-inform">
+                    <img class="footer__contact-inform-image" src="./assets/icons/map.png" alt="phone">
+                    <div class="footer__contact-inform-data">
+                        <p class="text">Address</p>
+                        <p class="number">OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </footer>
+    <div class="copyright">
+        <p class="copyright__text">
+            Copyright By@Example - 2020
+        </p><br>
+        <p class="copyright__text">
+            Terms of use | Privacy Environmental Policy
+        </p>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./slider.js"></script>
+
 </body>
 </html>
