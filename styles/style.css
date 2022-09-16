@@ -583,7 +583,7 @@ body {
 }
 .rooms__icon-image {
   position: relative;
-  width: 260;
+  width: 260px;
   height: 80px;
   box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
   -o-object-fit: cover;
@@ -1065,7 +1065,7 @@ body {
   position: absolute;
   background-color: #FFFFFF;
   font-family: "Archivo", sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 700;
   letter-spacing: -0.48px;
   margin-top: -80px;
@@ -1146,4 +1146,151 @@ body {
      object-fit: cover;
   width: 270px;
   height: 300px;
+}
+
+.room {
+  padding-top: 60px;
+  padding-left: 20px;
+}
+.room__section {
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+  color: #777777;
+}
+.room__title {
+  margin-top: 32px;
+  font-size: 40px;
+  font-family: "Old Standard TT", serif;
+  line-height: 48px;
+  letter-spacing: -1.44px;
+  color: #222222;
+}
+.room__price {
+  font-family: "Archivo", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43px;
+  color: #BEAD8E;
+  margin-top: 12px;
+}
+.room__price span {
+  font-size: 13px;
+}
+.room__price:hover {
+  transform: scale(1.1);
+}
+.room .checking {
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+  line-height: 20px;
+  letter-spacing: -0.54px;
+  color: #222222;
+  text-align: center;
+}
+.room input.check {
+  color: #777777;
+  background: #F8F8F8;
+  padding: 20px;
+  border-bottom: none;
+}
+.room button.roomDetail {
+  background-color: #FFFFFF;
+  color: #777777;
+  border: 2px solid #777777;
+}
+.room button.roomDetail:hover {
+  background-color: #BEAD8E;
+  border: 2px solid #BEAD8E;
+  color: #FFFFFF;
+}
+.room__lorem {
+  color: #777777;
+  font-weight: 400;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+}
+.room .other {
+  padding-top: 60px;
+  color: #222222;
+  font-weight: 400;
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+.room .amenities {
+  padding-top: 30px;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 40px;
+}
+.room .amenities__image {
+  display: flex;
+  padding-bottom: 20px;
+}
+.room .amenities__image img {
+  width: 30px;
+  height: 30px;
+}
+.room .amenities__image-text {
+  padding-left: 20px;
+}
+.room .amenities__image-text p {
+  color: #777777;
+  font-weight: 500;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+.room .employee {
+  width: 320px;
+  height: 456px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.room .employee__photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+}
+.room .employee__name {
+  padding-top: 40px;
+  color: #222222;
+  font-weight: 400;
+  font-family: "Old Standard TT", serif;
+  font-size: 30px;
+  line-height: 30px;
+}
+.room .employee__position {
+  padding-top: 20px;
+  color: #BEAD8E;
+  font-weight: 700;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 2.8px;
+}
+.room .employee__lorem {
+  padding: 20px;
+  padding-top: 20px;
+  color: #777777;
+  font-weight: 400;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+.room .cancellation__lorem {
+  padding-top: 20px;
+  color: #777777;
+  font-weight: 400;
+  font-family: "Archivo", sans-serif;
+  font-size: 14px;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */

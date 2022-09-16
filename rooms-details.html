@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <title>Hotel Miranda</title>
 </head>
 <body>
@@ -34,9 +35,197 @@
         </ul>
     </header>
 <main>
+    <div class="head">
+        <h4 class="head__subtitle">THE ULTIMATE LUXURY</h4>
+        <h1 class="head__title">Ultimate Room</h1>
+   </div>
 
+   <div class="nav">
+       <a class="page" href="">Home</a>
+       <span> | </span>
+       <a class="page" href="">Room Details</a>
+   </div>
+
+    <div class="room">
+        <p class="room__section">Double Bed</p>
+        <p class="room__title">Habitación 715</p>
+        <p class="room__price">$345<span>/Night</span></p>
+        <div class="rooms__image">
+        <img src="./assets/imgRooms/room5.jpg" alt="room image" />
+        </div>
+   
+            
+            <p class="checking">Check Availability</p>
+            <form class="availability__form">
+            <div class="availability__form-arrival">
+                <label for="arrival">Check In</label>
+                <input class="check" type="date" name="arrival" />
+            </div>
+            <div class="availability__form-departure">
+                <label for="departure">Check Out</label>
+                <input  class="check" type="date" name="departure"  />
+            </div>
+            <button id="check__button" class="roomDetail" name="check" type="button">
+                CHECK AVAILABILITY
+            </button>
+            </form>
+       
+
+        <p class="room__lorem">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+        culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.   
+        </p>
+
+
+        <h3 class="other">Amenities</h3>
+        <hr />
+        <div class="amenities">    
+            <div class="amenities__image">
+              <img src="./assets/iconsRooms/airConditioner.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Air conditioner</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/breakfastRoom.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Breakfast</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/cleaning.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Cleaning</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/grocery.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Grocery</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/shop.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Shop near</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/onlineSuppor.png" alt="" />
+                <div class="amenities__image-text">
+                <p>24/7 Online Support</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/smartSecurity.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Smart Security</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/wifi.png" alt="" />
+                <div class="amenities__image-text">
+                <p>High speed WiFi</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/kitchen.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Kitchen</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/shower.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Shower</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/singleBed.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Single bed</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/towels.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Towels</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/strongLocker.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Strong Locker</p>
+                </div>
+            </div>
+            <div class="amenities__image">
+                <img src="./assets/iconsRooms/expertTeam.png" alt="" />
+                <div class="amenities__image-text">
+                <p>Expert Team</p>
+                </div>
+            </div>
+        </div>    
+            
+            
+       
+    <div class="employee">
+      <img class=employee__photo src="./assets/imgRooms/rosalina.png" alt="photo" />
+      <p class="employee__name">Rosalina D. William</p>
+      <p class="employee__position">FOUNDER, QUX CO.</p>
+      <p class="employee__lorem">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore.
+      </p>
+    </div>
+
+
+  <div class="cancellation">
+    <h3 class="other">Cancellation</h3>
+    <hr />
+    <p class="cancellation__lorem">
+      Phasellus volutpat neque a tellus venenatis, a euismod augue
+      facilisis. Fusce ut metus mattis, consequat metus nec, luctus lectus.
+      Pellentesque orci quis hendrerit sed eu dolor. Cancel up to 14 days to
+      get a full refund.
+    </p>
+</div>
+
+<div class="rooms">
+    <h3 class="other">Related Rooms</h3>
+    <hr />
+    <!-- Slider main container -->
+    <div class="swiper">
+         <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+              <!-- Slides -->
+   
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room1.jpg')"></div>
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room2.jpg')"></div>
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room3.jpg')"></div>
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room4.jpg')"></div>
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room5.jpg')"></div>
+        <div class="swiper-slide" style="background-image: url('./assets/imgRooms/room6.jpg')"></div>
+        </div>
       
+         <!-- buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
 
+    </div>
+    <div class="rooms__icon">
+        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
+    </div>
+
+
+    <div class="rooms__infor">
+        <p class="rooms__infor-title">Minimal Duplex Room</p>
+        <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
+        <p   <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
+    </div>
+    </div>
+</div>
+</div>
 </main>
 
 
@@ -52,7 +241,7 @@
                 <img src="./assets/icons/social-fb.png" alt="facebook">
             </div>
             <div class="footer__networks-icon">
-                <img src="./assets/icons/social-tw.png" alt="twitter">
+                <img src="./assets/icons/social-tw.svg" alt="twitter">
             </div>
             <div class="footer__networks-icon">
                 <img src="./assets/icons/social-be.png" alt="behance">
@@ -117,6 +306,7 @@
     </p>
 
 </div>
-    
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./slider.js"></script>
 </body>
 </html>
