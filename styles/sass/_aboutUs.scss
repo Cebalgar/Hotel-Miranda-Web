@@ -51,7 +51,8 @@
 
 .presentation{
     padding: 20px;
-    font-size: 32px;
+    font-size: 30px;
+    font-weight: 400;
     font-family: $standard;
     line-height: 40px;
     letter-spacing: -1.16px;
@@ -101,7 +102,7 @@
   font-family: $archivo;
   background-color: #f9f9f9;
   padding-bottom: 150px;
-  padding-left: 20px;
+  padding: 20px;
   
  &__photo{
   display: flex;

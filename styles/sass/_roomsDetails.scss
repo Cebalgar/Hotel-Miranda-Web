@@ -16,20 +16,7 @@
         letter-spacing: -1.44px;
         color:$darkgray;
         }
-    &__price{
-      font-family: $archivo;
-      font-size: 32px;
-      font-weight: 700;
-      line-height: 43px;
-      color: $brown;
-      margin-top: 12px;
-      span {
-        font-size: 13px;
-      }
-      &:hover {
-        transform: scale(1.1);
-      }
-     }
+    
      
      .checking{
         padding-top: 50px;
@@ -72,18 +59,15 @@
     font-family: $standard;
     font-size: 30px;
     line-height: 30px;
+    margin-bottom: 20px;
      }
      .amenities{
         padding-top: 30px;
         display: grid;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-      
-
         margin-bottom: 40px;
        
-        
-  
         &__image{
             display: flex;
             padding-bottom: 20px;
