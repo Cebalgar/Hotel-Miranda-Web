@@ -19,7 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    background-position: center;
+    background-repeat: no-repeat;
     background-image: url(../assets/icons/team-background.png);
 
     &-icon {

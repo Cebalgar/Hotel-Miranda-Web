@@ -18,17 +18,21 @@ body {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.29);
   position: fixed;
   z-index: 100;
-}
-.header__burger {
-  position: absolute;
-  margin: 28px;
-}
-.header__close {
-  display: none;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  margin: 20px;
+  /*  #btnClosedMenu {
+     display: block;
+     position: relative;
+     width: 15px;
+     height: 15px;
+     margin: 20px;
+     &__close{
+       position: absolute;
+       cursor:pointer;
+
+     }
+   }
+   &__closeMenu{
+     display: none;
+   } */
 }
 .header__logo {
   position: absolute;
@@ -54,18 +58,51 @@ body {
   top: 23px;
   right: 20px;
 }
+.header #closedMenu {
+  display: block;
+  padding: 10px;
+}
+.header .close {
+  display: none;
+}
+.header__burger {
+  display: block;
+  position: absolute;
+  margin: 28px;
+  width: 20px;
+  height: 20px;
+}
+.header__burger-icon {
+  cursor: pointer;
+}
+.header #btn.remove {
+  display: none;
+}
 .header__menu {
   display: none;
   background-color: #FFFFFF;
 }
-.header__menu-a {
-  text-decoration: none;
-  font-size: "Archivo", sans-serif;
+.header #links.show {
+  display: block;
+  width: 100%;
+  margin-left: 0;
+  position: absolute;
+  background-color: #FFFFFF;
 }
-.header__menu-li {
-  list-style: none;
+.header #links.show a {
+  display: block;
+  text-decoration: none;
+  font-family: "Archivo", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  text-align: left;
+  padding: 10px;
   color: #111111;
-  margin: 21px;
+}
+.header #links.show a:hover {
+  width: 10%;
+  color: black;
 }
 
 .footer {
@@ -481,6 +518,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url(../assets/icons/team-background.png);
 }
 .strongTeam__container2-icon {

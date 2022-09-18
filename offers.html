@@ -9,31 +9,35 @@
     <title>Hotel Miranda</title>
 </head>
 <body>
-
     <header class="header">
-        <img class="header__burger" src="./assets/icons/menu-burger.png"/>
-        <img class="header__close hidden" src="./assets/icons/menu-close.png"/>
+        <div class="header__burger" id="btn" >
+            <img class="header__burger-icon"  src="./assets/icons/menu-burger.png"/>    
+    </div>
+    
         <div class="header__logo">
             <img class="header__logo-bg" src="./assets/icons/h.png" alt="logo">
         </div>
+       
         <img class="header__logo-title" src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda">
         <img class="header__user" src="./assets/icons/user.png" alt="user"/>
         <img class="header__search" src="./assets/icons/search.png" alt="search"/>
-       
-        <ul class="header__menu">
+      
+        <div class="header__menu" id="links">
+            <img class="header__close" id="closedMenu" src="./assets/icons/menu-close.png"/>
             <a href="./about.html" class="header__menu__a">
-                <li class="navbar__menu-li">About Us</li>
+                About Us
             </a>    
-            <a  href="rooms.html" class="header__menu__a">
-                <li class="header__menu-li">Romms</li>
+            <a  href="./rooms.html" class="header__menu__a">
+            Rooms
             </a>  
-            <a href="" class="header__menu-a" >
-                <li class="header__menu-li">Offers</li>
+            <a href="./offers.html" class="header__menu-a" >
+                Offers
             </a>
-            <a href=""" class="header__menu-a">
-                <li class="header__menu-li">Contact</li>
+            <a href="./contact.html" class="header__menu-a">
+                Contact
             </a>
-        </ul>
+        
+        </div>
     </header>
 <main>
 <div class="head">
@@ -554,6 +558,7 @@
 </div>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script type="text/javascript" src="./slider.js"></script>
+<script type="text/javascript" src="./header.js"></script>
 
 </body>
 </html>
