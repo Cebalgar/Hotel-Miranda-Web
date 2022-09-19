@@ -8,6 +8,7 @@
         flex-direction: column;
         margin-top:32px;
         justify-content: center;
+  
       
     
             img{
@@ -17,15 +18,13 @@
 
             }
             &-prices{
-         
               
+           
                 margin-top: -50px; 
                 width: 275px;
-              
-        
-        
+               
             .before{
-              
+                text-align: right;
                 font-family: $archivo;
                 font-size: 23px;
                 font-weight: 700;
@@ -43,12 +42,14 @@
             }
         
             .offer{
+                text-align: right;
                 margin-top: 10px;
                 font-family: $archivo;
                 font-size: 30px;
                 font-weight: 700;
                 line-height: 33px; 
                 color: red;
+                
             
                 span {
                     font-size: 13px;
@@ -141,7 +142,8 @@
 }
 
 .popular{
-    margin-top: 92px ;
+    margin-top: 40px;
+    padding-top: 92px ;
     background-color:$darkgray;
     padding-left: 20px;
     padding-right: 20px;

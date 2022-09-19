@@ -1344,6 +1344,7 @@ body {
   width: 275px;
 }
 .offers__room-prices .before {
+  text-align: right;
   font-family: "Archivo", sans-serif;
   font-size: 23px;
   font-weight: 700;
@@ -1359,6 +1360,7 @@ body {
   transform: scale(1.1);
 }
 .offers__room-prices .offer {
+  text-align: right;
   margin-top: 10px;
   font-family: "Archivo", sans-serif;
   font-size: 30px;
@@ -1448,7 +1450,8 @@ body {
 }
 
 .popular {
-  margin-top: 92px;
+  margin-top: 40px;
+  padding-top: 92px;
   background-color: #222222;
   padding-left: 20px;
   padding-right: 20px;
