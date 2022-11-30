@@ -1,24 +1,29 @@
 .availability {
-  font-size: $roboto;
+  font-family: $roboto;
   background: $darkgray;
   color: $white;
   padding: 0 20px 0 20px;
 
-  &__form {
-    padding: 36px 0;
 
-    &-arrival {
+  &__form {
+    width: 100%;
+    padding: 36px 0;
+    text-align: center;
+
+    &-input {
       label {
-        display: block;
+        display: inline-block;
+        width: 270px;
         margin-top: 30px;
         margin-bottom: 25px;
         font-size: 16px;
+        text-align: left;
       }
-      img {
+      /* img {
         position: absolute;
-      }
+      } */
       input {
-        width: 100%;
+        width: 270px;
         background: transparent;
         border: none;
         color: $brown;
@@ -28,36 +33,15 @@
         padding-bottom: 20px;
         padding-left: 30px;
         font-size: 14px;
+        &[type="date"]::-webkit-calendar-picker-indicator {
+          filter: invert(1);
+      }
       }
     }
 
-    &-departure {
-      label {
-        display: block;
-        margin-top: 30px;
-        margin-bottom: 25px;
-        font-size: 16px;
-      }
-      img {
-        position: absolute;
-      }
-      input {
-        width: 100%;
-        background: transparent;
-        border: none;
-        color: $brown;
-        position: relative;
-        border: none;
-        border-bottom: 2px solid $brown;
-        padding-bottom: 10px;
-        padding-left: 30px;
-        font-size: 14px;
-        margin-bottom: 36px;
-      }
-    }
     button {
       padding: 22px;
-      margin-bottom: 24px;
+      margin-top: 42px;
       font-family: $archivo;
       font-size: 14px;
       font-weight: 700;
@@ -72,4 +56,19 @@
         };
     }
   }
+  @media only screen and (min-width: 900px) {
+    &__form {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+
+        &-input {
+          width: 30%;
+      }
+      button{
+        margin-left:20px;
+      }
+    }
+    
+}
 }
