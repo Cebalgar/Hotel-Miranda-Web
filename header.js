@@ -1,23 +1,14 @@
 //menu hamburger movil
-const btnMenu= document.getElementById("btn");
-const showMenu = document.getElementById("links");
-const menuX= document.getElementById("closedMenu")
-
-
-const handleClick = function() {
-
- showMenu.classList.toggle("show");
- btnMenu.classList.toggle("remove");
- menuX.classList.toggle("show"); 
-}
-btnMenu.addEventListener("click", handleClick);
-
-
-menuX.addEventListener("click", ()=>{
-
-  showMenu.style.display = "none";
-  menuX.style.display = "none";
-  btnMenu.style.display = "block";
+const menuIcon = document.getElementById("menu-burger");
+const menu = document.getElementById("header-div");
+const textMenu = document.getElementById("links").innerHTML;
+menuIcon.addEventListener("click", () => {
+  menu.classList.toggle("header-div-active");
+  if (menu.classList.contains("header-div-active")) {
+    menuIcon.setAttribute("src", "./assets/icons/x.svg");
+    menu.innerHTML = textMenu;
+  } else {
+    menuIcon.setAttribute("src", "./assets/icons/menu.svg");
+    menu.innerHTML = "";
+  }
 });
-
-
