@@ -1,23 +1,23 @@
-.head{
-    width: 100%;
-    background-color:$gray;
-    padding: 120px 0 90px 20px;
-    color:$white;
-    margin-bottom: 40px;
-    &__subtitle{
-        font-family: $archivo;
-        font-weight: 700;
-        font-size: 13px;
-        line-height: 18px;
-        letter-spacing: 2.8px;
-    }
+.head {
+  width: 100%;
+  background-color: $gray;
+  padding: 120px 0 90px 20px;
+  color: $white;
+  margin-bottom: 40px;
+  &__subtitle {
+    font-family: $archivo;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 2.8px;
+  }
 
-    &__title{
-        font-family: $standard;
-        font-weight: 400;
-        font-size: 56px;
-        line-height: 60px;
-        letter-spacing: -1.2px;
-        margin-top: 20px;
-    }
+  &__title {
+    font-family: $standard;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2px;
+    margin-top: 20px;
+  }
 }

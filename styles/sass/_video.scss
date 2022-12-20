@@ -1,54 +1,85 @@
 .video {
-  width: 100%;
-  display: block;
-  padding: 25px;
+  padding: 30px 20px;
   background-color: $darkgray;
-  &__section {
-    padding-top: 64px;
-    font-family: $archivo;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
-    color: $brown;
+  &__wraper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
   }
-  &__title {
-    color: $white;
-    font-family: $standard;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: -1.2px;
-    padding-top: 20px;
-  }
-  &__lorem {
-    font-family: $archivo;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #c2c2c2;
-    padding: 20px;
-    text-align: justify;
+  &__text {
+    max-width: 400px;
+    &-section {
+      font-family: $archivo;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 2.8px;
+      color: $brown;
+    }
+    &-title {
+      color: $white;
+      font-family: $standard;
+      font-weight: 400;
+      font-size: 50px;
+      line-height: 54px;
+      letter-spacing: -1.2px;
+      padding-top: 20px;
+    }
+    &-lorem {
+      font-family: $archivo;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #c2c2c2;
+      text-align: justify;
+    }
   }
   &__film {
     justify-items: center;
-    width: 100%;
     padding: 20px;
   }
   &__button {
+    display: flex;
+    margin: 20px 0;
     padding: 22px;
-    margin-bottom: 24px;
+    align-items: center;
+    justify-content: center;
     font-family: $archivo;
     width: 216px;
     font-size: 14px;
     font-weight: 700;
     letter-spacing: 2.8px;
-    background-color:$darkgray;
-    border: 2px solid $lightgray;
+    background-color: $brown;
+    border: none;
     color: $white;
     cursor: pointer;
-      &:hover {
-          background-color: $brown;
-          border: 2px solid $brown;
-      };
+    &:hover {
+      background-color: $darkgray;
+      border: 2px solid $darkgray;
+    }
+  }
+
+  @media only screen and (min-width: 900px) {
+    background: linear-gradient(
+      to right,
+      $darkgray 0%,
+      $darkgray 70%,
+      $brown 70%,
+      $brown 100%
+    );
+    &__wraper {
+      gap: 50px;
+      justify-content: center;
+    }
+    &__text {
+      width: 35%;
+    }
+    &__film {
+      width: 400px;
+    }
+    & button {
+      margin-top: 50px;
+      margin-left: 10%;
+    }
   }
 }

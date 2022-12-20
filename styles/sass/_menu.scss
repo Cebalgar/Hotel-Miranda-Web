@@ -1,7 +1,18 @@
 .menu {
-  padding: 30px;
-  &__img {
-    margin-left: 80%;
+  &__donut {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    & img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+  &__wraper {
+    padding: 0px 20px 30px;
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
   }
   &__section {
     font-family: $archivo;
@@ -17,91 +28,142 @@
     font-family: $standard;
     font-style: normal;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 50px;
     line-height: 60px;
     letter-spacing: -1.2px;
     color: $darkgray;
   }
+
   &__card {
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     align-items: center;
-    justify-content: center;
+    gap: 20px;
+    margin: 15px;
+    max-width: 400px;
 
     &-image {
-      img {
-        object-fit: cover;
-        width: 120px;
-        height: 120px;
-      }
+      width: 110px;
+      height: 110px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
     &-text {
-      &-title {
+      width: 80%;
+      color: $darkgray;
+      & h3 {
         font-family: $standard;
-        font-style: normal;
         font-weight: 400;
         font-size: 24px;
-        line-height: 24px;
+        line-height: 20px;
         letter-spacing: -0.72px;
-        color: $darkgray;
       }
-      &-lorem {
-        margin-top: 12px;
+      & p {
         font-family: $roboto;
-        font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 24px;
-        color: $darkgray;
+        font-size: 13px;
+        line-height: 20px;
+      }
+    }
+    .eggs{
+      background-image: url(../assets/img/egg-baicon.jpeg);
+    }
+    .coffee{
+      background-image: url(../assets/img/tea-cofee.jpg);
+    }
+    .chia{
+      background-image: url(../assets/img/Chia-Seed-Oatmeal.jpg);
+    }
+    .fruit{
+      background-image: url(../assets/img/fruit.jpg);
+    }
+    .marmalade{
+      background-image: url(../assets/img/marmalade1.jpg);
+    }
+    .cheese{
+      background-image: url(../assets/img/cheese.webp);
+    }
+  
+  }
+
+  &__pagination {
+    &-buttons {
+      display: flex;
+      gap: 10px;
+      justify-content: end;
+
+      .swiper-button-prev {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        --swiper-navigation-size: 10px;
+        background-color: $brown;
+        color: #fff;
+        right: 0;
+        left: 0;
+      }
+      .swiper-button-next {
+        position: relative;
+        width: 32px;
+        height: 32px;
+        --swiper-navigation-size: 10px;
+        background-color: $brown;
+        color: #fff;
+        right: 0;
+        left: 0;
       }
     }
   }
-  &__buttons {
-    padding-top: 20px;
-    display: flex;
-    justify-content: flex-end;
-    gap: 12px;
-
-    &-before {
-      background: #f8f8f8;
-      width: 36px;
-      height: 36px;
-      font-family: $archivo;
-      font-weight: 700;
-      font-size: 20px;
-      border: none;
-      cursor: pointer;
-      p {
-        color: $black;
-      }
-      &:hover {
-        transform: scale(1.05);
-      }
-    }
-    &-next {
-      background: $brown;
-      width: 36px;
-      height: 36px;
-      font-family: $archivo;
-      font-weight: 700;
-      font-size: 20px;
-      border: none;
-      cursor: pointer;
-
-      p {
-        color: $white;
-      }
-      &:hover {
-        transform: scale(1.05);
-        box-shadow: 0px 14px 24px rgba(190, 173, 142, 0.15);
-      }
-    }
-  }
-
   &__slider {
-    background: lightgrey;
-    height: 300px;
-    margin-top: 40px;
+    width: 80%;
+    max-width: 400px;
+ 
+  }
+  &__slider-pagination {
+    position: relative;
+    margin-top: 24px;
+    --swiper-theme-color: #bead8e;
+  }
+  @media only screen and (min-width: 800px) {
+    &__wraper {
+      max-width: 800px;
+    }
+    &__pagination {
+      &-wraper {
+       
+        display: flex;
+        justify-content: space-around;
+      }
+      .swiper-slide {
+        width: 50%;
+      }
+      &-buttons {
+        display: none;
+      }
+    }
+  }
+  @media only screen and (min-width: 900px) {
+    &__slider {
+      max-width: none;
+      width: 90%;
+      &-wraper {
+        gap: 20px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .swiper-slide {
+        width: 33%;
+        height: 200px;
+      }
+    }
+  }
+  @media only screen and (min-width: 1090px) {
+    &__donut {
+      justify-content: flex-start;
+      margin-left: 30px;
+    }
+    &__section{
+      margin-top: -50px;
+    }
   }
 }

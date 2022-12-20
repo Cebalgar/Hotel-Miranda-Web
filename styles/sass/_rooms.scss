@@ -1,20 +1,7 @@
 .rooms {
-  padding-top: 60px;
-  padding: 20px;
- 
+  padding: 50px 0;
+  text-align: center;
 
-  &__image{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-   
-    img {
-      object-fit: cover;
-      width: 300px;
-      height: 250px
-    }
-  }
   &__section {
     font-family: $archivo;
     font-size: 14px;
@@ -26,78 +13,69 @@
   &__title {
     color: $darkgray;
     font-family: $standard;
-    font-size: 54px;
+    font-size: 50px;
     line-height: 60px;
     text-align: center;
     letter-spacing: -1.2px;
     margin-top: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
-  &__icon{
+  &__icons {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 3;
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    margin-bottom: -30px;
-
-
-  &-image {
-    position: relative;
-    width: 260px;
-    height: 80px;
+    background-color: #fff;
+    width: 256px;
+    height: 40px;
     box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
-    object-fit: cover;
   }
-}
 
-  .swiper {
+  &__slider {
     margin-top: 20px;
     width: 100%;
     height: 300px;
-    z-index: 1;
- 
-  
-    .swiper-slide {
- 
+    z-index: 0;
+
+    &-slide {
       background-size: cover;
       background-position: center;
     }
 
-    .swiper-button-prev{
+    .swiper-button-prev {
       --swiper-navigation-size: 20px;
       color: $black;
       background-color: $white;
       padding: 20px;
-      &:hover{
-        background-color:$brown;
+      &:hover {
+        background-color: $brown;
         color: $white;
       }
     }
-    
-    .swiper-button-next{
+    .swiper-button-next {
       --swiper-navigation-size: 20px;
       color: $black;
       background-color: $white;
       padding: 20px;
-       &:hover{
-        background-color:$brown;
+      &:hover {
+        background-color: $brown;
         color: $white;
       }
     }
- 
-      
   }
-  
+
   &__infor {
     padding-top: 20px;
-    padding:20px;
+    padding: 20px;
     flex-direction: column;
     display: flex;
     background-color: $white;
     margin-bottom: 20px;
-  
-    
 
-   
     &-title {
       font-family: $standard;
       font-weight: 400;
@@ -126,8 +104,8 @@
       span {
         font-size: 13px;
       }
-      .book{
-        color:#BDBDBD;
+      .book {
+        color: #bdbdbd;
         font-size: 16px;
       }
       &:hover {

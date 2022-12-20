@@ -1,169 +1,142 @@
 .aboutUs {
-  margin-top: 60px;
-  font-family: $archivo;
-  background-color: #f9f9f9;
-  padding-bottom: 150px;
-  padding-left: 20px;
-  &__section {
-    padding-top: 40px;
-    font-weight: 700;
-    font-size: 13px;
-    line-height: 18px;
-    letter-spacing: 2.8px;
-    color: $lightgray;
-   
-  }
-  &__title {
-    margin-top: 32px;
-    font-size: 50px;
-    font-family: $standard;
-    line-height: 60px;
-    letter-spacing: -1.2px;
-    margin-left: 20px;
-    text-align: center;
-  }
-  &__lorem {
-    color: $lightgray;
-    font-family: $archivo;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 20px;
-  }
-  &__button {
-  font-size: 14px;
-  font-weight: 700;
-  padding: 22px 57px;
-  border: 2px solid $lightgray;
-  background-color: #f9f9f9;
-  color: $lightgray;
-  margin-top: 24px;
-  font-family:$archivo;
-  font-style: normal;
-  line-height: 15px;
-  letter-spacing: 2.8px;
-  cursor: pointer;
-  &:hover {
-    color: $white;
-    background-color: $brown;
-    border: 2px solid $brown;
-  }
-}
-}
-
-.presentation{
-    padding: 20px;
-    font-size: 30px;
-    font-weight: 400;
-    font-family: $standard;
-    line-height: 40px;
-    letter-spacing: -1.16px;
-    margin-left: 20px;
-    text-align: center;
-
-}
-.services{
-  padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap-reverse;
   justify-content: center;
-  gap:35px;
-    &__icon{
-      
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      width: 100px;
-      height: 100px;
-      transition: background-color 200ms ease-in-out;
-      img {
-        margin-top: 10px;
-        width: 58px;
-        height: 50px;
-        transition: filter 100ms ease-in-out;
+  &__section {
+    width: 100%;
+    background: #f9f9f9;
+    &-wraper {
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+      & h4 {
+        font-family: $archivo;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 2.8px;
+        color: $lightgray;
       }
-      &:hover {
-        background-color: #bead8e;
-        img {
-          filter: brightness(8);
+      & h3 {
+        padding-top: 30px;
+        font-family: $standard;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        letter-spacing: -1.2px;
+      }
+      & p {
+        font-family: $archivo;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        color: $lightgray;
+        margin-top: 16px;
+      }
+      button {
+        font-size: 14px;
+        font-weight: 700;
+        padding: 22px 57px;
+        border: none;
+        background-color: $brown;
+        color: white;
+        margin-top: 24px;
+        font-family: $archivo;
+        font-style: normal;
+        line-height: 15px;
+        letter-spacing: 2.8px;
+        cursor: pointer;
+        &:hover {
+          color: $lightgray;
+          background-color: #f9f9f9;
+          border: 2px solid $lightgray;
         }
       }
     }
-      p{
-          font-family: $archivo;
-          padding: 10px;
-          font-weight: 700;
-          font-size: 8px;
-          line-height: 14px;
-          letter-spacing: 2.4px;
-          color:$darkgray;
+  }
+  &__images {
+    margin-top: 20px;
+    & h1 {
+      font-family: $standard;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 30px;
+      letter-spacing: -0.9px;
+      margin-top: 30px;
+    }
+    & p {
+      font-family: $roboto;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 22px;
+      margin-top: 21px;
+    }
+    &-item {
+      padding: 40px 0px;
+      width: 250px;
+      height: 280px;
+    }
+    .aboutUs__image1 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/img/Empleados-comprometidos.jpg");
+    }
+    .aboutUs__strongTeam {
+      text-align: center;
+      background-image: url("../assets/icons/backgroundTeam.svg");
+      background-repeat: no-repeat;
+      background-position: right 50px;
+      color: #111;
+      box-shadow: 0px 8px 16px rgba(34, 34, 34, 0.02);
+    }
+    .aboutUs__image2 {
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url("../assets/img/room.jpg");
+    }
+    .aboutUs__luxury {
+      text-align: center;
+      background-color: #222;
+      color: #fff;
+    }
+  }
+  @media only screen and (min-width: 600px) {
+    &__section p {
+      font-size: 16px;
+    }
+    &__images {
+      display: grid;
+      grid-template-areas: 50% 50% / 50% 50%;
+      align-content: center;
+      justify-content: end;
+      font-size: 15px;
+      gap: 20px;
+      &-item {
+        width: 210px;
+        height: 224px;
       }
-}
-.restaurant{
-  margin-top: 60px;
-  font-family: $archivo;
-  background-color: #f9f9f9;
-  padding-bottom: 150px;
-  padding: 20px;
-  
- &__photo{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 300px;
-  img{
-    object-fit: cover;
-      width: 270px;
-      height: 300px;
+      .aboutUs__image1 {
+        grid-column: 2;
+        grid-row: 1;
+      }
+      .aboutUs__image2 {
+        margin: 0;
+      }
+      .aboutUs__team {
+        grid-column: 1;
+      }
+    }
   }
-   
- }
-  &__section {
-    font-family: $archivo;
-    padding-top: 40px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 15px;
-    letter-spacing: 2.8px;
-    color: $lightgray;
-  }
-  &__title {
-    margin-top: 32px;
-    font-size: 40px;
-    font-family: $standard;
-    line-height: 50px;
-    letter-spacing: -1.1px;
-    margin-left: 20px;
-    text-align: center;
-    font-weight: 400;
-  }
-  &__lorem {
-    color: $lightgray;
-    font-family: $archivo;
-    font-size: 14px;
-    line-height: 24px;
-    padding: 20px;
-  }
-  &__button {
-  font-size: 14px;
-  font-weight: 700;
-  padding: 22px 57px;
-  border: 2px solid $lightgray;
-  background-color: #f9f9f9;
-  color: $lightgray;
-  margin-top: 24px;
-  font-family:$archivo;
-  font-style: normal;
-  line-height: 15px;
-  letter-spacing: 2.8px;
-  cursor: pointer;
-  &:hover {
-    color: $white;
-    background-color: $brown;
-    border: 2px solid $brown;
+  @media only screen and (min-width: 900px) {
+    padding: 5% 0;
+    &__section {
+      width: 50%;
+      align-self: center;
+    }
+    &__images {
+      width: 50%;
+    }
   }
 }
-
-}
-
-

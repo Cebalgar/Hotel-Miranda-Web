@@ -1,7 +1,9 @@
-.facilities {
-  width: 100%;
-  margin-top: 60px;
+
+.facilities{
+  padding: 10% 20px;
+  text-align: center;
  
+
   &__section {
     font-size: $archivo;
     font-weight: 700;
@@ -11,69 +13,86 @@
     color: $lightgray;
     text-align: center;
   }
-  &__title {
+  &__subtitle {
     font-family: $standard;
     font-weight: 400;
-    font-size: 56px;
+    font-size: 50px;
     line-height: 60px;
     letter-spacing: -1.2px;
     color: $darkgray;
     padding-top: 24px;
     text-align: center;
   }
-  &__slider {
-    margin-top: 32px;
-    padding-inline: 35px;
+  .facilities__slider{
+    font-family: $archivo;
+    text-align: left;
+    font-size: 16px;
+    max-width: 250px;
+    margin-top: 30px;
+  
+    
+    &-slide {
+      width: 100%;
+      height: 320px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
     &-number {
-      width: 143px;
-      height: 130px;
-      margin-left: 60%;
-
-      .uno {
-        font-family: $archivo;
-        font-weight: 700;
-        font-size: 120px;
-        line-height: 130px;
-        color: rgba(34, 34, 34, 0.04);
-      }
+      font-weight: 700;
+      font-size: 110px;
+      line-height: 130px;
+      color: #2222220a;
+      align-self: flex-end;
     }
-    &-icon {
-      cursor: pointer;
-      &:hover {
-        transform: scale(1.1);
-      }
+    &-img {
+      width: 20%;
+      margin-top: -60px;
     }
-    &-subtitle {
-      padding-top: 36px;
+    &-title {
       font-family: $standard;
       font-weight: 400;
-      font-size: 30px;
-      letter-spacing: -0.9;
+      font-size: 32px;
       line-height: 30px;
-      color: $darkgray;
+      padding: 20px 0;
     }
-    &-lorem {
-      font-family: $archivo;
-      font-size: 14px;
+    &-text {
+      color: $lightgray;
+      font-size: 16px;
       font-weight: 400;
       line-height: 24px;
-      color: $lightgray;
-      padding: 20px 0 20px 0;
-      text-align: justify;
+    }
+    &-pagination {
+      --swiper-theme-color: #bead8e;
     }
   }
+
   &-dark {
-    padding: 40px;
-    background-color:$darkgray;
-       p{
-        color:$white;
-       } 
- 
+    background-color: $darkgray;
+    .subtitle-dark {
+      color: #fff;
+    }
   }
-  .number-dark{
+  .title-dark {
+    color: #fff;
+  }
+  .number-dark {
     color: $gray;
   }
-  
+
+  @media only screen and (min-width: 900px) {
+    .facilities__slider {
+      max-width: none;
+      &-wraper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+      }
+      &-slide {
+        max-width: 250px;
+      }
+    }
+  }
 }
-
-

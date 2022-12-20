@@ -4,7 +4,6 @@
   color: $white;
   padding: 0 20px 0 20px;
 
-
   &__form {
     width: 100%;
     padding: 36px 0;
@@ -19,9 +18,7 @@
         font-size: 16px;
         text-align: left;
       }
-      /* img {
-        position: absolute;
-      } */
+
       input {
         width: 270px;
         background: transparent;
@@ -35,7 +32,7 @@
         font-size: 14px;
         &[type="date"]::-webkit-calendar-picker-indicator {
           filter: invert(1);
-      }
+        }
       }
     }
 
@@ -46,29 +43,28 @@
       font-size: 14px;
       font-weight: 700;
       letter-spacing: 2.8px;
-      background-color:$darkgray;
+      background-color: $darkgray;
       border: 2px solid $lightgray;
       color: $white;
       cursor: pointer;
-        &:hover {
-            background-color: $brown;
-            border: 2px solid $brown;
-        };
+      &:hover {
+        background-color: $brown;
+        border: 2px solid $brown;
+      }
     }
   }
   @media only screen and (min-width: 900px) {
     &__form {
-        display: flex;
-        gap: 30px;
-        justify-content: center;
+      display: flex;
+      gap: 30px;
+      justify-content: center;
 
-        &-input {
-          width: 30%;
+      &-input {
+        width: 30%;
       }
-      button{
-        margin-left:20px;
+      button {
+        margin-left: 20px;
       }
     }
-    
-}
+  }
 }

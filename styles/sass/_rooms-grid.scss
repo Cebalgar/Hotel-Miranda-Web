@@ -1,0 +1,78 @@
+.rooms-grid {
+  text-align: center;
+  font-size: 14px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  justify-content: center;
+  max-width: 950px;
+  margin: auto;
+  padding: 20px;
+  &__image {
+    width: 290px;
+    height: 200px;
+    margin: 20px auto;
+  }
+  &__icons {
+    position: relative;
+    margin-top: -55px;
+    z-index: 1;
+  }
+  &__text {
+    margin: 10px auto;
+    max-width: 300px;
+    & h1 {
+      font-family: $standard;
+      font-weight: 400;
+      font-size: 27px;
+      line-height: 24px;
+      letter-spacing: -0.72px;
+      color: $darkgray;
+    }
+    & p {
+      font-family: $roboto;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      color: $lightgray;
+      margin-top: 10px;
+    }
+    &-flex {
+      display: flex;
+      justify-content: space-around;
+      font-family: $archivo;
+      font-weight: 700px;
+      font-size: 16px;
+      .rooms-grid__text-price {
+        color: $brown;
+      }
+      .rooms-grid__text-booking {
+        color: #bdbdbd;
+        cursor: pointer;
+      }
+    }
+  }
+  &__pagination {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    font-family: $archivo;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 30px;
+    & button {
+      width: 30px;
+      height: 30px;
+      border: none;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    & span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 30px;
+      height: 30px;
+      color: $darkgray;
+    }
+  }
+}

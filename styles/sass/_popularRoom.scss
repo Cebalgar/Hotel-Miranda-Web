@@ -1,0 +1,88 @@
+.popular {
+  margin-top: 40px;
+  padding-top: 92px;
+  background-color: $darkgray;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+
+  &__section {
+    font-weight: 500;
+    font-family: $archivo;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    color: $brown;
+    text-transform: uppercase;
+  }
+  &__title {
+    color: $white;
+    font-family: $standard;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -0.8px;
+    margin-top: 24px;
+  }
+
+  &__icon {
+    width: 226px;
+    display: flex;
+    margin-top: -30px;
+
+    &-image {
+      position: relative;
+      align-content: center;
+      box-shadow: 0px 8px 16px rgba(138, 138, 138, 0.05);
+      object-fit: cover;
+      z-index: 100;
+    }
+  }
+  &__infor {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: $white;
+    margin-top: -40px;
+
+    &-title {
+      color: $darkgray;
+      font-family: $standard;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: -0.8px;
+      text-align: center;
+    }
+    &-lorem {
+      color: $lightgray;
+      font-family: $roboto;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      line-height: 24px;
+      margin-top: 20px;
+    }
+    &-price {
+      font-family: $archivo;
+      font-size: 16px;
+      font-weight: 700;
+      line-height: 17px;
+      text-align: center;
+      color: $brown;
+      margin-top: 12px;
+      span {
+        font-size: 16px;
+      }
+      .book {
+        color: #bdbdbd;
+        font-size: 16px;
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

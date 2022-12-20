@@ -1,0 +1,60 @@
+.presentation {
+  padding: 20px;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: $standard;
+  line-height: 40px;
+  letter-spacing: -1.16px;
+  margin-left: 20px;
+  text-align: center;
+}
+.services {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+  max-width: 500px;
+  margin: auto;
+  &__icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    max-width: 150px;
+    max-height: 150px;
+
+    img {
+      margin-top: 10px;
+      width: 58px;
+      height: 50px;
+    }
+
+    p {
+      font-family: $archivo;
+      padding: 10px;
+      font-weight: 700;
+      font-size: 8px;
+      line-height: 14px;
+      letter-spacing: 2.4px;
+      color: $darkgray;
+    }
+  }
+  .airport {
+    & p {
+      color: #fff;
+    }
+    & img {
+      margin-top: 20px;
+    }
+    background-color: $brown;
+  }
+  @media only screen and (min-width: 400px) {
+    &__icon p {
+      font-size: 10px;
+    }
+  }
+  @media only screen and (min-width: 700px) {
+    max-width: none;
+  }
+}

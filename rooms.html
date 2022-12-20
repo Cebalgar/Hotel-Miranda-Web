@@ -52,152 +52,105 @@
         <a class="page" href="">Rooms</a>
     </div>
 
-    <div class="rooms">
-        <div class="rooms__image">
-            <img src="./assets/imgRooms/room1.jpg">
+    <div class="rooms-grid" id="container">
+        <div class="rooms-grid__wraper">
+          <img class="rooms-grid__image" />
+          <div class="rooms-grid__icons rooms__icons">
+            <img src="./assets/iconsRooms/bed.svg" alt="bed_icon" />
+            <img src="./assets/iconsRooms//wifi.svg" alt="wifi_icon" />
+            <img src="./assets/iconsRooms/car.svg" alt="car_icon" />
+            <img src="./assets/iconsRooms/air.svg" alt="air_icon" />
+            <img src="./assets/iconsRooms/gym.svg" alt="gym_icon" />
+            <img src="./assets/iconsRooms/smoke.svg" alt="smoke_icon" />
+            <img src="./assets/iconsRooms/bar.svg" alt="bar_icon" />
+          </div>
+          <div class="rooms-grid__text">
+            <h1 class="rooms-grid__title">Minimal Duplex Room</h1>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor.
+            </p>
+            <div class="rooms-grid__text-flex">
+              <p class="rooms-grid__text-price">$345/Night</p>
+              <p class="rooms-grid__text-booking">Booking now</p>
+            </div>
+          </div>
         </div>
-        <div class="rooms__icon">
-        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
-        </div>
-        <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
-        </div>
-    </div>
-    <div class="rooms">
-        <div class="rooms__image">
-            <img src="./assets/imgRooms/room2.jpg">
-        </div>
-        <div class="rooms__icon">
-        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
-        </div>
-        <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
-        </div>
-    </div>
-    <div class="rooms">
-        <div class="rooms__image">
-            <img src="./assets/imgRooms/room3.jpg">
-        </div>
-        <div class="rooms__icon">
-        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
-        </div>
-        <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
-        </div>
-    </div>
-    <div class="rooms">
-        <div class="rooms__image">
-            <img src="./assets/imgRooms/room4.jpg">
-        </div>
-        <div class="rooms__icon">
-        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
-        </div>
-        <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
-        </div>
-    </div>
-    <div class="rooms">
-        <div class="rooms__image">
-            <img src="./assets/imgRooms/room5.jpg">
-        </div>
-        <div class="rooms__icon">
-        <img class="rooms__icon-image" src="./assets/icons/room-services.png" alt="icon">
-        </div>
-        <div class="rooms__infor">
-            <p class="rooms__infor-title">Minimal Duplex Room</p>
-            <p class="rooms__infor-lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fringilla scelerisque.</p> 
-            <p class="rooms__infor-price">$345<span>/Night</span> <span class="book">Book Now</span></p>
-        </div>
-    </div>
-<!-- añadir paginación -->
+      </div>
+      <div class="rooms-grid__pagination" id="pagination">
+        <button id="btn_prev">&laquo</button>
+        <div id="page"></div>
+        <button id="btn_next">&raquo</button>
+      </div>
 </main>
 
 
     <!-- Footer -->
-<footer class="footer">
-        <div class="footer__logo">
-            <img class="footer__logo-icon" src="./assets/icons/logo-large.png" alt="logo"/>
-        </div>
-        <p class="footer__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.  Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__text">
+                <img src="./assets/icons/logo-large.png" alt="logo"/>
+            <p class="footer__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.  Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
 
-        <div class="footer__networks">
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-fb.png" alt="facebook">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-tw.svg" alt="twitter">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-be.png" alt="behance">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-in.png" alt="linkedin">
-            </div>
-            <div class="footer__networks-icon">
-                <img src="./assets/icons/social-yt.png" alt="youtube">
+            <div class="footer__networks">
+                <img class="footer__network" src="./assets/icons/social-fb.png" alt="facebook">
+                <img class="footer__network" src="./assets/icons/social-tw.svg" alt="twitter">
+                <img class="footer__network" src="./assets/icons/social-be.png" alt="behance">
+                <img class="footer__network" src="./assets/icons/social-in.png" alt="linkedin">
+                <img class="footer__network" src="./assets/icons/social-yt.png" alt="youtube">
             </div>
         </div>
-    <div>
-        <h4 class="footer__title">Services.</h4>
-
-        <ul class="footer__services">
-            <li>+ Restaurant & Bar</li>
-            <li>+ Swimming Pool</li>
-            <li>+ Wellness & Spa</li>
-            <li>+ Restaurant</li>
-            <li>+ Conference Room</li>
-            <li>+ Coctail Party House</li>
-            <li>+ Gaming Zone</li>
-            <li>+ Marrige Party</li>
-            <li>+ Party Planning</li>
-            <li>+ Tour Consultancy</li>
-        </ul>
-    </div>
-        <h4 class="footer__contacTitle">
-            Contact Us.
-        </h4>
+        <div class="footer__services">
+            <h4 class="footer__title">Services.</h4>
+            <ul class="footer__service">
+                <li>+ Restaurant & Bar</li>
+                <li>+ Swimming Pool</li>
+                <li>+ Wellness & Spa</li>
+                <li>+ Restaurant</li>
+                <li>+ Conference Room</li>
+                <li>+ Coctail Party House</li>
+                <li>+ Gaming Zone</li>
+                <li>+ Marrige Party</li>
+                <li>+ Party Planning</li>
+                <li>+ Tour Consultancy</li>
+            </ul>
+        </div>
         <div class="footer__contact">
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/phone.png" alt="phone">
-                <div class="footer__contact-inform-data">
-                    <p class="text">Phone Number</p>
-                    <p class="number">+678 614 049</p>
+            <h4 class="footer__title">Contact Us.</h4>
+                <div class="footer__box">
+                    <img src="./assets/icons/phone.png" alt="phone"><br/>
+                <div class="footer__box-title">
+                <p class="text">Phone Number</p>
+                <p class="number">+678 614 049</p>
                 </div>
-            </div>
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/message.png" alt="email">
-                <div class="footer__contact-inform-data">
+        </div>
+                <div class="footer__box">
+                    <img src="./assets/icons/message.png" alt="email"><br/>
+                    <div class="footer__box-title">
                     <p class="text">Email</p>
                     <p class="number">cebalgar@gmail.com</p>
                 </div>
-            </div>
-            <div class="footer__contact-inform">
-                <img class="footer__contact-inform-image" src="./assets/icons/map.png" alt="phone">
-                <div class="footer__contact-inform-data">
+                </div>
+                <div class="footer__box">
+                    <img src="./assets/icons/map.png" alt="phone"><br/>
+                    <div class="footer__box-title">
                     <p class="text">Address</p>
                     <p class="number">OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
+                    </div>
                 </div>
+            </div>  
+        </div>
+        <div class="copyright">
+            <p>Copyright By@Example - 2022</p>
+            <div class="copyright__links">
+              <a href="#">Terms of use</a> |
+              <a href="#">Privacy Environmental Policy</a>
             </div>
-        </div>  
-    </div>
-</footer>
-<div class="copyright">
-    <p class="copyright__text">
-        Copyright By@Example - 2020
-    </p><br>
-    <p class="copyright__text">
-        Terms of use | Privacy Environmental Policy
-    </p>
-
-</div>
+          </div>
+    </footer>
 <script type="text/javascript" src="./header.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="./slider.js"></script>
+<script type="text/javascript" src="./rooms-pagination.js"></script>
 </body>
 </html>
