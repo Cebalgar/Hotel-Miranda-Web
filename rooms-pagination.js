@@ -56,24 +56,40 @@ function change(page) {
         image.setAttribute("src", `./assets/imgRooms/room${random}.jpg`);
         if (image.getAttribute("src") === "./assets/imgRooms/room1.jpg") {
           title = "Minimal Duplex Room";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room2.jpg") {
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room2.jpg"
+        ) {
           title = "Double Bed Room";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room3.jpg") {
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room3.jpg"
+        ) {
           title = "Luxury Suite";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room4.jpg") {
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room4.jpg"
+        ) {
           title = "Single Bed Room";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room5.jpg") {
-        title = "Minimal Duplex Room";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room6.jpg") {
-        title = "Luxury Suite";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room7.jpg") {
-            title = "Single Bed Room";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room8.jpg") {
-            title = "Luxury Suite";
-        } else if (image.getAttribute("src") === "./assets/imgRooms/room9.jpg") {
-            title = "Minimal Duplex Room";
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room5.jpg"
+        ) {
+          title = "Minimal Duplex Room";
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room6.jpg"
+        ) {
+          title = "Luxury Suite";
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room7.jpg"
+        ) {
+          title = "Single Bed Room";
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room8.jpg"
+        ) {
+          title = "Luxury Suite";
+        } else if (
+          image.getAttribute("src") === "./assets/imgRooms/room9.jpg"
+        ) {
+          title = "Minimal Duplex Room";
         }
-    }
+      }
       for (text of texts) {
         text.innerHTML = title;
       }

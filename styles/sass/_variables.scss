@@ -1,28 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&family=Old+Standard+TT:wght@400;700&family=Roboto:wght@400;700&display=swap");
 
 //colores
-$white:#FFFFFF;
-$black:#111111;
-$darkgray:#222222;
-$gray:#333333;
-$lightgray:#777777;
-$brown:#BEAD8E;
-
+$white: #ffffff;
+$black: #111111;
+$darkgray: #222222;
+$gray: #333333;
+$lightgray: #777777;
+$brown: #bead8e;
 
 //fuentes
-$standard:'Old Standard TT', serif;
-$archivo: 'Archivo', sans-serif;
-$roboto:'Roboto', serif;
+$standard: "Old Standard TT", serif;
+$archivo: "Archivo", sans-serif;
+$roboto: "Roboto", serif;
 
 //globales
 html,
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    overflow-x: hidden;
-    min-width: 320px;
+  overflow-x: hidden;
+  min-width: 320px;
 }

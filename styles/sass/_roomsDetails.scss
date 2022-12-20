@@ -1,147 +1,140 @@
-.room{
-    padding-top: 60px;
-    padding-left: 20px;
-    &__section{
-        font-family: $archivo;
-        font-size: 14px;
-        line-height: 15px;
-        letter-spacing: 2.8px;
-        color: $lightgray;
-        }
-    &__title{
-        margin-top: 32px;
-        font-size: 40px;
-        font-family: $standard;
-        line-height: 48px;
-        letter-spacing: -1.44px;
-        color:$darkgray;
-        }
-    
-     
-     .checking{
-        padding-top: 50px;
-        font-size: 18px;
-        font-weight: 700;
-        font-family: $archivo;
-        line-height: 20px;
-        letter-spacing: -0.54px;
-        color:$darkgray;
-        text-align: center;
-     }
+.room {
+  padding-top: 60px;
+  padding-left: 20px;
+  &__section {
+    font-family: $archivo;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 2.8px;
+    color: $lightgray;
+  }
+  &__title {
+    margin-top: 32px;
+    font-size: 40px;
+    font-family: $standard;
+    line-height: 48px;
+    letter-spacing: -1.44px;
+    color: $darkgray;
+  }
 
-     & input.check{
-        color:$lightgray;
-        background: #F8F8F8;
-        padding: 20px;
-        border-bottom: none;
-     }
-     & button.roomDetail{
-        background-color: $white;
-        color: $lightgray;
-        border: 2px solid $lightgray;
-        &:hover {
-            background-color: $brown;
-            border: 2px solid $brown;
-            color:$white;
-        };
-     }
-     &__lorem{
+  .checking {
+    padding-top: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: $archivo;
+    line-height: 20px;
+    letter-spacing: -0.54px;
+    color: $darkgray;
+    text-align: center;
+  }
+
+  & input.check {
+    color: $lightgray;
+    background: #f8f8f8;
+    padding: 20px;
+    border-bottom: none;
+  }
+  & button.roomDetail {
+    background-color: $white;
+    color: $lightgray;
+    border: 2px solid $lightgray;
+    &:hover {
+      background-color: $brown;
+      border: 2px solid $brown;
+      color: $white;
+    }
+  }
+  &__lorem {
     color: $lightgray;
     font-weight: 400;
     font-family: $archivo;
     font-size: 14px;
     line-height: 24px;
-     }
-     .other{
-    padding-top:60px ;
+  }
+  .other {
+    padding-top: 60px;
     color: $darkgray;
     font-weight: 400;
     font-family: $standard;
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 20px;
-     }
-     .amenities{
-        padding-top: 30px;
-        display: grid;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        margin-bottom: 40px;
-       
-        &__image{
-            display: flex;
-            padding-bottom: 20px;
-            img{
-                width: 30px;
-                height: 30px;
-            }
-            &-text{
-            padding-left: 20px;
-            p{
-            color: $lightgray;
-            font-weight: 500;
-            font-family: $roboto;
-            font-size: 14px;
-            line-height: 17px;
-            } 
-            }
+  }
+  .amenities {
+    padding-top: 30px;
+    display: grid;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
+
+    &__image {
+      display: flex;
+      padding-bottom: 20px;
+      img {
+        width: 30px;
+        height: 30px;
+      }
+      &-text {
+        padding-left: 20px;
+        p {
+          color: $lightgray;
+          font-weight: 500;
+          font-family: $roboto;
+          font-size: 14px;
+          line-height: 17px;
         }
+      }
     }
+  }
 
-    .employee{
-        width: 320px;
-        height: 456px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    
-        &__photo{
-            width: 150px;
-            height: 150px;
-            border-radius: 75px;
-            
-        }
-        &__name{
-        padding-top:40px ;
-        color: $darkgray;
-        font-weight: 400;
-        font-family: $standard;
-        font-size: 30px;
-        line-height: 30px;        
-        }
-        &__position{
-            padding-top: 20px;
-            color: $brown;
-            font-weight: 700;
-            font-family: $archivo;
-            font-size: 14px;
-            line-height: 15px;
-            letter-spacing: 2.8px;          
-        }
-        &__lorem{
-            padding: 20px;
-            padding-top: 20px;
-            color: $lightgray;
-            font-weight: 400;
-            font-family: $archivo;
-            font-size: 14px;
-            line-height: 24px;
-            text-align: center;   
-        }
+  .employee {
+    width: 320px;
+    height: 456px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 75px;
     }
-        .cancellation{
-        
-            &__lorem{
-            padding-top: 20px;
-            color: $lightgray;
-            font-weight: 400;
-            font-family: $archivo;
-            font-size: 14px;
-            line-height: 24px;
-            }
-        }
-
-
+    &__name {
+      padding-top: 40px;
+      color: $darkgray;
+      font-weight: 400;
+      font-family: $standard;
+      font-size: 30px;
+      line-height: 30px;
     }
-
-  
+    &__position {
+      padding-top: 20px;
+      color: $brown;
+      font-weight: 700;
+      font-family: $archivo;
+      font-size: 14px;
+      line-height: 15px;
+      letter-spacing: 2.8px;
+    }
+    &__lorem {
+      padding: 20px;
+      padding-top: 20px;
+      color: $lightgray;
+      font-weight: 400;
+      font-family: $archivo;
+      font-size: 14px;
+      line-height: 24px;
+      text-align: center;
+    }
+  }
+  .cancellation {
+    &__lorem {
+      padding-top: 20px;
+      color: $lightgray;
+      font-weight: 400;
+      font-family: $archivo;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}

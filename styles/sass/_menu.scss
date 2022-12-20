@@ -65,25 +65,24 @@
         line-height: 20px;
       }
     }
-    .eggs{
+    .eggs {
       background-image: url(../assets/img/egg-baicon.jpeg);
     }
-    .coffee{
+    .coffee {
       background-image: url(../assets/img/tea-cofee.jpg);
     }
-    .chia{
+    .chia {
       background-image: url(../assets/img/Chia-Seed-Oatmeal.jpg);
     }
-    .fruit{
+    .fruit {
       background-image: url(../assets/img/fruit.jpg);
     }
-    .marmalade{
+    .marmalade {
       background-image: url(../assets/img/marmalade1.jpg);
     }
-    .cheese{
+    .cheese {
       background-image: url(../assets/img/cheese.webp);
     }
-  
   }
 
   &__pagination {
@@ -117,7 +116,6 @@
   &__slider {
     width: 80%;
     max-width: 400px;
- 
   }
   &__slider-pagination {
     position: relative;
@@ -130,7 +128,6 @@
     }
     &__pagination {
       &-wraper {
-       
         display: flex;
         justify-content: space-around;
       }
@@ -162,7 +159,7 @@
       justify-content: flex-start;
       margin-left: 30px;
     }
-    &__section{
+    &__section {
       margin-top: -50px;
     }
   }

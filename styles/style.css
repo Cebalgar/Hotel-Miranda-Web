@@ -266,7 +266,7 @@ header a {
   font-weight: 700;
   padding: 22px 57px;
   border: none;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   color: white;
   margin-top: 24px;
   font-family: "Archivo", sans-serif;
@@ -371,7 +371,7 @@ header a {
 .information {
   width: 100%;
   background-color: #333333;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 100px 20px 50px 20px;
 }
 .information__content-subtitle {
@@ -405,12 +405,12 @@ header a {
   letter-spacing: 2.8px;
   background-color: #333333;
   border: 2px solid #777777;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .information__content-buttons button:hover {
-  background-color: #BEAD8E;
-  border: 2px solid #BEAD8E;
+  background-color: #bead8e;
+  border: 2px solid #bead8e;
 }
 @media only screen and (min-width: 450px) {
   .information__content {
@@ -440,7 +440,7 @@ header a {
 .availability {
   font-family: "Roboto", serif;
   background: #222222;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 0 20px 0 20px;
 }
 .availability__form {
@@ -460,10 +460,10 @@ header a {
   width: 270px;
   background: transparent;
   border: none;
-  color: #BEAD8E;
+  color: #bead8e;
   position: relative;
   border: none;
-  border-bottom: 2px solid #BEAD8E;
+  border-bottom: 2px solid #bead8e;
   padding-bottom: 20px;
   padding-left: 30px;
   font-size: 14px;
@@ -480,12 +480,12 @@ header a {
   letter-spacing: 2.8px;
   background-color: #222222;
   border: 2px solid #777777;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .availability__form button:hover {
-  background-color: #BEAD8E;
-  border: 2px solid #BEAD8E;
+  background-color: #bead8e;
+  border: 2px solid #bead8e;
 }
 @media only screen and (min-width: 900px) {
   .availability__form {
@@ -550,29 +550,29 @@ header a {
 .rooms__slider .swiper-button-prev {
   --swiper-navigation-size: 20px;
   color: #111111;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px;
 }
 .rooms__slider .swiper-button-prev:hover {
-  background-color: #BEAD8E;
-  color: #FFFFFF;
+  background-color: #bead8e;
+  color: #ffffff;
 }
 .rooms__slider .swiper-button-next {
   --swiper-navigation-size: 20px;
   color: #111111;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   padding: 20px;
 }
 .rooms__slider .swiper-button-next:hover {
-  background-color: #BEAD8E;
-  color: #FFFFFF;
+  background-color: #bead8e;
+  color: #ffffff;
 }
 .rooms__infor {
   padding-top: 20px;
   padding: 20px;
   flex-direction: column;
   display: flex;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-bottom: 20px;
 }
 .rooms__infor-title {
@@ -598,7 +598,7 @@ header a {
   font-weight: 700;
   line-height: 17px;
   text-align: center;
-  color: #BEAD8E;
+  color: #bead8e;
   margin-top: 12px;
 }
 .rooms__infor-price span {
@@ -630,10 +630,10 @@ header a {
   font-size: 14px;
   line-height: 15px;
   letter-spacing: 2.8px;
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .video__text-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-size: 50px;
@@ -664,9 +664,9 @@ header a {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 2.8px;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 .video__button:hover {
@@ -675,7 +675,7 @@ header a {
 }
 @media only screen and (min-width: 900px) {
   .video {
-    background: linear-gradient(to right, #222222 0%, #222222 70%, #BEAD8E 70%, #BEAD8E 100%);
+    background: linear-gradient(to right, #222222 0%, #222222 70%, #bead8e 70%, #bead8e 100%);
   }
   .video__wraper {
     gap: 50px;
@@ -877,7 +877,7 @@ header a {
   width: 32px;
   height: 32px;
   --swiper-navigation-size: 10px;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   color: #fff;
   right: 0;
   left: 0;
@@ -887,7 +887,7 @@ header a {
   width: 32px;
   height: 32px;
   --swiper-navigation-size: 10px;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   color: #fff;
   right: 0;
   left: 0;
@@ -964,7 +964,7 @@ header a {
 .data__icon-number {
   font-weight: 700;
   font-size: 60px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .data__icon-number span {
   font-size: 20px;
@@ -1086,7 +1086,7 @@ header a {
   width: 100%;
   background-color: #333333;
   padding: 120px 0 90px 20px;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 40px;
 }
 .head__subtitle {
@@ -1108,7 +1108,7 @@ header a {
 .nav {
   margin-left: 60%;
   position: absolute;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   font-family: "Archivo", sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -1123,7 +1123,7 @@ header a {
   text-decoration: none;
 }
 .nav .page:hover {
-  color: #BEAD8E;
+  color: #bead8e;
 }
 
 .counter {
@@ -1231,19 +1231,19 @@ header a {
 }
 .room input.check {
   color: #777777;
-  background: #F8F8F8;
+  background: #f8f8f8;
   padding: 20px;
   border-bottom: none;
 }
 .room button.roomDetail {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   color: #777777;
   border: 2px solid #777777;
 }
 .room button.roomDetail:hover {
-  background-color: #BEAD8E;
-  border: 2px solid #BEAD8E;
-  color: #FFFFFF;
+  background-color: #bead8e;
+  border: 2px solid #bead8e;
+  color: #ffffff;
 }
 .room__lorem {
   color: #777777;
@@ -1308,7 +1308,7 @@ header a {
 }
 .room .employee__position {
   padding-top: 20px;
-  color: #BEAD8E;
+  color: #bead8e;
   font-weight: 700;
   font-family: "Archivo", sans-serif;
   font-size: 14px;
@@ -1360,7 +1360,7 @@ header a {
   font-size: 23px;
   font-weight: 700;
   line-height: 25px;
-  color: #BEAD8E;
+  color: #bead8e;
   text-decoration: line-through;
 }
 .offers__prices-before span {
@@ -1454,8 +1454,8 @@ header a {
   font-weight: 700;
   margin: 20px auto;
   border: none;
-  background-color: #BEAD8E;
-  color: #FFFFFF;
+  background-color: #bead8e;
+  color: #ffffff;
   font-family: "Archivo", sans-serif;
   font-style: normal;
   line-height: 15px;
@@ -1586,9 +1586,9 @@ header a {
   font-weight: 700;
   line-height: 18.75px;
   letter-spacing: 3.2px;
-  background-color: #BEAD8E;
+  background-color: #bead8e;
   border: none;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -1635,7 +1635,7 @@ header a {
   color: #222222;
 }
 .services .airport {
-  background-color: #BEAD8E;
+  background-color: #bead8e;
 }
 .services .airport p {
   color: #fff;
@@ -1701,8 +1701,8 @@ header a {
   font-weight: 700;
   padding: 22px 57px;
   border: none;
-  background-color: #BEAD8E;
-  color: #FFFFFF;
+  background-color: #bead8e;
+  color: #ffffff;
   margin-top: 24px;
   font-family: "Archivo", sans-serif;
   font-style: normal;
@@ -1802,7 +1802,7 @@ header a {
   font-size: 16px;
 }
 .rooms-grid__text-flex .rooms-grid__text-price {
-  color: #BEAD8E;
+  color: #bead8e;
 }
 .rooms-grid__text-flex .rooms-grid__text-booking {
   color: #bdbdbd;
@@ -1848,11 +1848,11 @@ header a {
   line-height: 15px;
   letter-spacing: 2.8px;
   text-align: center;
-  color: #BEAD8E;
+  color: #bead8e;
   text-transform: uppercase;
 }
 .popular__title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Old Standard TT", serif;
   font-weight: 400;
   font-size: 40px;
@@ -1877,7 +1877,7 @@ header a {
 .popular__infor {
   padding-top: 40px;
   padding-bottom: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   margin-top: -40px;
 }
 .popular__infor-title {
@@ -1905,7 +1905,7 @@ header a {
   font-weight: 700;
   line-height: 17px;
   text-align: center;
-  color: #BEAD8E;
+  color: #bead8e;
   margin-top: 12px;
 }
 .popular__infor-price span {

@@ -1,58 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Hotel Miranda</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <header>
-        <div class="title">We Make Your Feel Comfortable</div>
-            <div class="header">  
+      <div class="title">We Make Your Feel Comfortable</div>
+      <div class="header">
+        <div class="header__menu" id="btn">
+          <img
+            class="header__menu-burger"
+            src="./assets/icons/menu-burger.png"
+            id="menu-burger"
+          />
+          <a href="./index.html"
+            ><div class="header__menu-logo">
+              <img src="./assets/icons/h.png" alt="logo" /></div
+          ></a>
+          <div class="header__menu-name">
+            <img src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda" />
+          </div>
+        </div>
 
-                <div class="header__menu" id="btn">
-                    <img class="header__menu-burger"  src="./assets/icons/menu-burger.png" id="menu-burger"/> 
-                    <a href="./index.html"><div class="header__menu-logo">
-                    <img src="./assets/icons/h.png" alt="logo">
-                    </div></a>
-                    <div class="header__menu-name">
-                        <img  src="./assets/icons/navbar-miranda.png" alt="Hotel Miranda">
-                    </div>
-                </div>
+        <nav class="header__menu-links" id="links">
+          <a href="./about.html"><p>About Us</p></a>
+          <a href="./rooms.html"><p>Rooms</p></a>
+          <a href="./offers.html"><p>Offers</p></a>
+          <a href="./contact.html"><p>Contact</p></a>
+        </nav>
 
-                <nav class="header__menu-links" id="links">
-                    <a href="./about.html"><p> About Us </p></a>    
-                    <a href="./rooms.html"><p> Rooms </p></a>  
-                    <a href="./offers.html"><p> Offers </p></a>
-                    <a href="./contact.html"><p> Contact </p></a>
-                </nav>
+        <div class="header__icons">
+          <img
+            class="header__icons-user"
+            src="./assets/icons/user.png"
+            alt="user"
+          />
+          <img
+            class="header__icons-search"
+            src="./assets/icons/search.png"
+            alt="search"
+          />
+        </div>
+      </div>
 
-                <div class="header__icons">
-                    <img class="header__icons-user" src="./assets/icons/user.png" alt="user"/>
-                    <img class="header__icons-search" src="./assets/icons/search.png" alt="search"/>
-                </div>   
-
-            </div>
-
-            <div class="header-div" id="header-div"></div>
+      <div class="header-div" id="header-div"></div>
     </header>
 
-<main>
-    <div class="head">
-         <h4 class="head__subtitle">THE ULTIMATE LUXURY</h4>
-         <h1 class="head__title">Ultimate Room</h1>
-    </div>
+    <main>
+      <div class="head">
+        <h4 class="head__subtitle">THE ULTIMATE LUXURY</h4>
+        <h1 class="head__title">Ultimate Room</h1>
+      </div>
 
-    <div class="nav">
+      <div class="nav">
         <a class="page" href="./index.html">Home</a>
         <span> | </span>
         <a class="page" href="">Rooms</a>
-    </div>
+      </div>
 
-    <div class="rooms-grid" id="container">
+      <div class="rooms-grid" id="container">
         <div class="rooms-grid__wraper">
           <img class="rooms-grid__image" />
           <div class="rooms-grid__icons rooms__icons">
@@ -82,75 +92,102 @@
         <div id="page"></div>
         <button id="btn_next">&raquo</button>
       </div>
-</main>
-
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer__container">
-            <div class="footer__text">
-                <img src="./assets/icons/logo-large.png" alt="logo"/>
-            <p class="footer__lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum metus et consectetur volutpat. Suspendisse tempus congue lorem. Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.  Phasellus neque libero, facilisis nec felis in, tincidunt laoreet turpis. </p>
+      <div class="footer__container">
+        <div class="footer__text">
+          <img src="./assets/icons/logo-large.png" alt="logo" />
+          <p class="footer__lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum
+            metus et consectetur volutpat. Suspendisse tempus congue lorem.
+            Proin sollicitudin finibus tortor, eu rutrum ligula auctor in.
+            Phasellus neque libero, facilisis nec felis in, tincidunt laoreet
+            turpis.
+          </p>
 
-            <div class="footer__networks">
-                <img class="footer__network" src="./assets/icons/social-fb.png" alt="facebook">
-                <img class="footer__network" src="./assets/icons/social-tw.svg" alt="twitter">
-                <img class="footer__network" src="./assets/icons/social-be.png" alt="behance">
-                <img class="footer__network" src="./assets/icons/social-in.png" alt="linkedin">
-                <img class="footer__network" src="./assets/icons/social-yt.png" alt="youtube">
-            </div>
+          <div class="footer__networks">
+            <img
+              class="footer__network"
+              src="./assets/icons/social-fb.png"
+              alt="facebook"
+            />
+            <img
+              class="footer__network"
+              src="./assets/icons/social-tw.svg"
+              alt="twitter"
+            />
+            <img
+              class="footer__network"
+              src="./assets/icons/social-be.png"
+              alt="behance"
+            />
+            <img
+              class="footer__network"
+              src="./assets/icons/social-in.png"
+              alt="linkedin"
+            />
+            <img
+              class="footer__network"
+              src="./assets/icons/social-yt.png"
+              alt="youtube"
+            />
+          </div>
         </div>
         <div class="footer__services">
-            <h4 class="footer__title">Services.</h4>
-            <ul class="footer__service">
-                <li>+ Restaurant & Bar</li>
-                <li>+ Swimming Pool</li>
-                <li>+ Wellness & Spa</li>
-                <li>+ Restaurant</li>
-                <li>+ Conference Room</li>
-                <li>+ Coctail Party House</li>
-                <li>+ Gaming Zone</li>
-                <li>+ Marrige Party</li>
-                <li>+ Party Planning</li>
-                <li>+ Tour Consultancy</li>
-            </ul>
+          <h4 class="footer__title">Services.</h4>
+          <ul class="footer__service">
+            <li>+ Restaurant & Bar</li>
+            <li>+ Swimming Pool</li>
+            <li>+ Wellness & Spa</li>
+            <li>+ Restaurant</li>
+            <li>+ Conference Room</li>
+            <li>+ Coctail Party House</li>
+            <li>+ Gaming Zone</li>
+            <li>+ Marrige Party</li>
+            <li>+ Party Planning</li>
+            <li>+ Tour Consultancy</li>
+          </ul>
         </div>
         <div class="footer__contact">
-            <h4 class="footer__title">Contact Us.</h4>
-                <div class="footer__box">
-                    <img src="./assets/icons/phone.png" alt="phone"><br/>
-                <div class="footer__box-title">
-                <p class="text">Phone Number</p>
-                <p class="number">+678 614 049</p>
-                </div>
-        </div>
-                <div class="footer__box">
-                    <img src="./assets/icons/message.png" alt="email"><br/>
-                    <div class="footer__box-title">
-                    <p class="text">Email</p>
-                    <p class="number">cebalgar@gmail.com</p>
-                </div>
-                </div>
-                <div class="footer__box">
-                    <img src="./assets/icons/map.png" alt="phone"><br/>
-                    <div class="footer__box-title">
-                    <p class="text">Address</p>
-                    <p class="number">OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid</p>
-                    </div>
-                </div>
-            </div>  
-        </div>
-        <div class="copyright">
-            <p>Copyright By@Example - 2022</p>
-            <div class="copyright__links">
-              <a href="#">Terms of use</a> |
-              <a href="#">Privacy Environmental Policy</a>
+          <h4 class="footer__title">Contact Us.</h4>
+          <div class="footer__box">
+            <img src="./assets/icons/phone.png" alt="phone" /><br />
+            <div class="footer__box-title">
+              <p class="text">Phone Number</p>
+              <p class="number">+678 614 049</p>
             </div>
           </div>
+          <div class="footer__box">
+            <img src="./assets/icons/message.png" alt="email" /><br />
+            <div class="footer__box-title">
+              <p class="text">Email</p>
+              <p class="number">cebalgar@gmail.com</p>
+            </div>
+          </div>
+          <div class="footer__box">
+            <img src="./assets/icons/map.png" alt="phone" /><br />
+            <div class="footer__box-title">
+              <p class="text">Address</p>
+              <p class="number">
+                OXYGEN Workspace | Calle Princesa 31, planta 2 28008 Madrid
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright By@Example - 2022</p>
+        <div class="copyright__links">
+          <a href="#">Terms of use</a> |
+          <a href="#">Privacy Environmental Policy</a>
+        </div>
+      </div>
     </footer>
-<script type="text/javascript" src="./header.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-<script type="text/javascript" src="./slider.js"></script>
-<script type="text/javascript" src="./rooms-pagination.js"></script>
-</body>
+    <script type="text/javascript" src="./header.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="./slider.js"></script>
+    <script type="text/javascript" src="./rooms-pagination.js"></script>
+  </body>
 </html>

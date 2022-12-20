@@ -1,41 +1,39 @@
 // SLIDER ROOMS
 const swiper = new Swiper(".rooms__slider", {
-    direction: "horizontal",
-    loop: true,
+  direction: "horizontal",
+  loop: true,
+  slidesPerView: 1,
+  centeredSlides: true,
+  spaceBetween: 20,
+  effect: "fade",
+  autoplay: {
+    delay: 2000,
+    pauseOnMouseEnter: true,
+    disableOnInteraction: false,
+  },
+
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+//SLIDER FACILITES
+const initSwiperFacilities = function () {
+  const swiper2 = new Swiper(".facilities__slider", {
     slidesPerView: 1,
+    spaceBetween: 30,
     centeredSlides: true,
-    spaceBetween: 20,
-    effect:"fade",
     autoplay: {
-      delay: 2000,
-      pauseOnMouseEnter:true,
-      disableOnInteraction:false,
+      delay: 3000,
+      disableOnInteraction: false,
     },
-  
-  
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
     },
   });
-  
-
-  //SLIDER FACILITES
-  const initSwiperFacilities = function () {
-    const swiper2 = new Swiper(".facilities__slider", {
-      slidesPerView: 1,
-      spaceBetween: 30,
-      centeredSlides: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-      },
-    });
-  };
+};
 //SLIDER MENU
 const initSwiperMenu = function () {
   const swiper3 = new Swiper(".menu__slider", {
@@ -88,5 +86,3 @@ mql2.onchange = (e) => {
     location.reload();
   }
 };
-
- 
