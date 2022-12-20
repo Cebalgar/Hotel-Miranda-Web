@@ -1,3 +1,8 @@
 # Hotel-Miranda-Web
-SPRINT 1
+## Visit:
 GITHUB PAGES:https://cebalgar.github.io/Hotel-Miranda-Web/
+
+#Buit with:
+<li>JS<li>
+<li>HTML<li>
+<li>SCSS<li>
